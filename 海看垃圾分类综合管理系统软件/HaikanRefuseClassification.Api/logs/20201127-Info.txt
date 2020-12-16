@@ -1,0 +1,39 @@
+2020-11-27 10:48:47,023 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 10:48:47,071 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 10:48:47,078 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api
+2020-11-27 10:51:14,164 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 10:51:14,204 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 10:51:14,214 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api
+2020-11-27 10:54:46,685 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 10:54:46,725 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 10:54:46,727 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 10:56:42,067 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 10:56:42,101 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 10:56:42,104 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:04:32,513 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:04:32,541 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:04:32,547 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:05:42,947 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:05:42,975 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:05:42,978 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:06:39,060 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:06:39,091 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:06:39,094 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:45:10,515 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:45:10,546 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:45:10,548 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:46:58,517 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:46:58,556 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:46:58,560 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:50:52,383 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:50:52,422 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:50:52,427 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:54:30,119 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:54:30,170 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:54:30,175 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:54:49,773 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:54:49,804 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:54:49,810 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api
+2020-11-27 11:57:46,304 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Application started. Press Ctrl+C to shut down.
+2020-11-27 11:57:46,335 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Hosting environment: Development
+2020-11-27 11:57:46,340 [1] INFO  Microsoft.Hosting.Lifetime [(null)]  - Content root path: D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api

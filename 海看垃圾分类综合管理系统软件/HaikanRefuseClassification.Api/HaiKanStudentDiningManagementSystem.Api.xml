@@ -1,0 +1,4349 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HaikanRefuseClassification.Api</name>
+    </assembly>
+    <members>
+        <member name="T:HaikanRefuseClassification.Api.Auth.AppAuthenticationSettings">
+            <summary>
+            JWT授权的配置项
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Auth.AppAuthenticationSettings.AppId">
+            <summary>
+            应用ID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Auth.AppAuthenticationSettings.Secret">
+            <summary>
+            应用密钥(真实项目中可能区分应用,不同的应用对应惟一的密钥)
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Auth.JwtBearerAuthenticationExtension.AddJwtBearerAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,HaikanRefuseClassification.Api.Auth.AppAuthenticationSettings)">
+            <summary>
+            注册JWT Bearer认证服务的静态扩展方法
+            </summary>
+            <param name="services"></param>
+            <param name="appSettings">JWT授权的配置项</param>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.AccountController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.AccountController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.AccountController.Profile">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.AccountController.Menu">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.MenuItemHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.MenuItemHelper.BuildTree(System.Collections.Generic.List{HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuItem},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="menus"></param>
+            <param name="selectedGuid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.getAllGrabroomPoint">
+            <summary>
+            获取所有垃圾厢房的数据
+            </summary>
+            <param name="idcard"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.AllCommunity">
+            <summary>
+            乡镇/街道/社区  三级联动
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.getSingleScoreRecord(System.Object)">
+            <summary>
+            获取分数
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetAllGrabRoom(System.String)">
+            <summary>
+            获取所有垃圾厢房
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetAllVillage">
+            <summary>
+            获取所有社区
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.ZYZYY(HaikanRefuseClassification.Api.ViewModels.App.ZYZYYViewModel)">
+             <summary>
+            志愿者预约
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.ShowMessage(System.String)">
+            <summary>
+            消息时间轴
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetUsedScore(System.Guid)">
+            <summary>
+            获取用户积分
+            </summary>
+            <param name="ownid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetAllScore(System.Guid)">
+            <summary>
+            获取积分列表
+            </summary>
+            <param name="ownid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetUserInfo(System.Guid)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.editUserInfo(HaikanRefuseClassification.Api.Entities.SystemUser)">
+            <summary>
+            修改用户信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.Shoplist">
+            <summary>
+            商店信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.goodlist(System.Guid)">
+            <summary>
+            可兑换商品信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.AddchangeGoods(System.Object)">
+            <summary>
+            添加兑换记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetEWM(System.Guid)">
+            <summary>
+            获取用户二维码
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetJiatinEWM(System.Guid)">
+            <summary>
+            获取用户家庭码
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.CheckSubscribe(System.Guid,System.String)">
+            <summary>
+            确认预约再打卡
+            </summary>
+            <param name="guid"></param>
+            <param name="ap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.ewm(System.String)">
+            <summary>
+            生成二维码信息
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.OwnerManageController.GetAllCount(System.Guid)">
+            <summary>
+            获取打卡次数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SendCodeController.GetRegCode(System.String)">
+            <summary>
+            用户注册，获取验证码
+            </summary>
+            <param name="phone"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SendCodeController.CreateValidateNumber(System.Int32)">
+            <summary>
+            生成随机验证码（数字字母）
+            </summary>
+            <param name="length">验证码的长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SendCodeController.CreateUser(HaikanRefuseClassification.Api.Entities.SystemUser)">
+            <summary>
+            微信注册
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SendCodeController.GetWechat(HaikanRefuseClassification.Api.ViewModels.App.WechatModel)">
+            <summary>
+            获取openid
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.getOneUser(System.Guid)">
+            <summary>
+            通过老年卡号，手机号获取用户信息
+            </summary>
+            <param name="idcard"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.VolunteeraddScore(HaikanRefuseClassification.Api.Entities.GrabageDisposal)">
+            <summary>
+            垃圾投放赋分
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.AddScoreRecode(HaikanRefuseClassification.Api.ViewModels.Person.GetscoreParms)">
+            <summary>
+            督导员赋分记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.GetSingleScore(System.Guid)">
+            <summary>
+            获取单个分数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.AllList">
+            <summary>
+            志愿者管理(列表)
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.GetTrashLocation(System.Guid)" -->
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.scoreList">
+            <summary>
+            积分评价列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.TrashRoomList">
+            <summary>
+            垃圾厢房列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.volunteerPJ(System.Guid,System.String)">
+            <summary>
+            志愿者服务评价
+            </summary>
+            <param name="guid"></param>
+            <param name="pj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.GetRegCode(System.String)">
+            <summary>
+            用户注册，获取验证码
+            </summary>
+            <param name="phone"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.GetResCode(System.String)">
+            <summary>
+            重置密码时的验证码
+            </summary>
+            <param name="phone"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.CreateValidateNumber(System.Int32)">
+            <summary>
+            生成随机验证码（数字字母）
+            </summary>
+            <param name="length">验证码的长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.TrashRoomYYList(System.Guid,System.String)">
+            <summary>
+            预约垃圾厢房
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.Roomjuli(System.String,System.Guid)">
+            <summary>
+            判断距离
+            </summary>
+            <param name="lnglat"></param>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.TrashRoomList(System.String)">
+            <summary>
+            垃圾厢房列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.JiatinmaList(System.Guid)">
+            <summary>
+            是否绑定家庭码
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.AddJiatinma(System.Guid,System.Guid)">
+            <summary>
+            添加家庭码信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.ShopaddRecordList(System.String,System.String,System.String)">
+            <summary>
+            获取商家的兑换记录信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.GetInfo(System.String)">
+            <summary>
+            督导员赋分设备获取信息
+            </summary>
+            <param name="uuid">设备UUID</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.GetScore">
+            <summary>
+            获取默认赋分分数 好
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.AddScore(System.String,System.String)">
+            <summary>
+            添加赋分
+            </summary>
+            <param name="DeviceID">设备id</param>
+            <param name="Strcontent">家庭码</param>
+            <param name="Sign"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.AddScore2Async(System.String,System.String)">
+            <summary>
+            市民卡赋分
+            </summary>
+            <param name="DeviceID">设备id</param>
+            <param name="card">芯片卡号</param>
+            <param name="Sign">秘钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.app.SupervisorManageController.GetCommonEWM(System.Guid)">
+            <summary>
+            获取用户百姓码
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.AttendanceListController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.AttendanceListController.List(HaikanRefuseClassification.Api.RequestPayload.AttendanceManagement.AttendanceList.AttendanceListRequestPayload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.AttendanceListController.Detail(System.Guid)">
+            <summary>
+            详情_查看
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.AttendanceListController.ClockIn(HaikanRefuseClassification.Api.ViewModels.AttendanceManagement.AttendanceList.ClockInViewModel)">
+            <summary>
+            上班签到
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.AttendanceListController.Message(System.String)">
+            <summary>
+            消息弹窗
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.AttendanceListController.ClockBack(HaikanRefuseClassification.Api.ViewModels.AttendanceManagement.AttendanceList.ClockInViewModel)">
+            <summary>
+            下班签退
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.List(HaikanRefuseClassification.Api.RequestPayload.AttendanceManagement.WorkTime.WorkTimeRequestPayload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.Create(HaikanRefuseClassification.Api.ViewModels.AttendanceManagement.WorkTime.WorkTimeCreateViewModel)">
+            <summary>
+            创建时间
+            </summary>
+            <param name="model">时间视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.Edit(System.Guid)">
+            <summary>
+            编辑时间
+            </summary>
+            <param name="guid">时间惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.Edit(HaikanRefuseClassification.Api.ViewModels.AttendanceManagement.WorkTime.WorkTimeCreateViewModel)">
+            <summary>
+            保存编辑后的上下班信息
+            </summary>
+            <param name="model">时间视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.Delete(System.String)">
+            <summary>
+            删除时间
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.Recover(System.String)">
+            <summary>
+            恢复角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.Batch(System.String,System.String)">
+            <summary>
+            批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.AttendanceManagement.WorkTimeController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.List(HaikanRefuseClassification.Api.RequestPayload.Base.CollegeRequestPayload)">
+            <summary>
+            社区管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.Create(HaikanRefuseClassification.Api.ViewModels.Base.CollegeViewModel)">
+            <summary>
+            添加社区管理(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.Edit(System.Guid)">
+            <summary>
+            编辑社区管理(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.Edit(HaikanRefuseClassification.Api.ViewModels.Base.CollegeViewModel)">
+            <summary>
+            保存编辑后的社区管理(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.Detail(HaikanRefuseClassification.Api.ViewModels.Base.VillageParms)">
+            <summary>
+            社区管理详情
+            </summary>
+            <param name="model">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.CollegeController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.GrabTypeController.Create(System.Object)">
+            <summary>
+            添加垃圾(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.GrabTypeController.Edit(System.Object)">
+            <summary>
+            保存编辑后的住户信息管理(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.GrabTypeController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.GrabTypeController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.GrabTypeController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.GrabTypeController.GetListGroupByType(System.Object)">
+            <summary>
+            app垃圾分类查询
+            </summary>
+            <param name="dd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.GrabTypeController.shopInfoImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.List(HaikanRefuseClassification.Api.RequestPayload.Base.HouseholdRequestPayload)">
+            <summary>
+            住户信息管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.GetAllCount(System.Guid)">
+            <summary>
+            获取打卡次数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.Create(HaikanRefuseClassification.Api.ViewModels.Base.HouseholdViewModel)">
+            <summary>
+            添加住户信息管理(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.Edit(System.Guid)">
+            <summary>
+            编辑住户信息管理(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.Edit(HaikanRefuseClassification.Api.ViewModels.Base.HouseholdViewModel)">
+            <summary>
+            保存编辑后的住户信息管理(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.Detail(System.Guid)">
+            <summary>
+            住户信息管理详情
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.HouseholdController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.List(HaikanRefuseClassification.Api.RequestPayload.Base.RubbishRequestPayload)">
+            <summary>
+            垃圾箱房管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.Create(HaikanRefuseClassification.Api.ViewModels.Base.RubbishViewModel)">
+            <summary>
+            添加垃圾箱房管理(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.Edit(System.Guid)">
+            <summary>
+            编辑垃圾箱房管理(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.Edit(HaikanRefuseClassification.Api.ViewModels.Base.RubbishViewModel)">
+            <summary>
+            保存编辑后的垃圾箱房管理(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.Detail(System.Guid)">
+            <summary>
+            垃圾箱房管理详情
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.RubbishInfoImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.RubbishController.AllList">
+            <summary>
+            获取全部垃圾厢房点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.List(HaikanRefuseClassification.Api.RequestPayload.Base.VehicleRequestPayload)">
+            <summary>
+            车辆管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.Create(HaikanRefuseClassification.Api.ViewModels.Base.VehicleViewModel)">
+            <summary>
+            添加车辆信息管理(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.Edit(System.Guid)">
+            <summary>
+            编辑车辆信息管理(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.Edit(HaikanRefuseClassification.Api.ViewModels.Base.VehicleViewModel)">
+            <summary>
+            保存编辑后的车辆信息管理(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.Detail(System.Guid)">
+            <summary>
+            车辆信息管理详情
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Base.VehicleController.UserInfoImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入车辆信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.CarApp.CarAppController.CarInfo(System.String)">
+            <summary>
+            获取当前请求的车牌号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.CarApp.CarAppController.AddQuestion(HaikanRefuseClassification.Api.Entities.Question)">
+            <summary>
+            问题反馈
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.CarApp.CarAppController.GetWeighRecord(System.Object)">
+            <summary>
+            获取称重记录
+            </summary>
+            <param name="imei"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.CarApp.CarAppController.CheckWeighRecord(HaikanRefuseClassification.Api.ViewModels.CarApp.CheckWeighRecordModel)">
+            <summary>
+            确认称重记录
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.CarApp.CarAppController.RecycleInfo(System.String)">
+            <summary>
+            车载APP实时地图数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Data.DataTJController.List(HaikanRefuseClassification.Api.RequestPayload.Data.DataTJRequestPayload)">
+            <summary>
+            数据统计
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.GiMap.DataBordController.GetData1">
+            <summary>
+            分类概况（小区数 厢房数 用户数 全部已赚取积分 商店数 已使用积分）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.GiMap.DataBordController.GetAllCount(System.Guid)">
+            <summary>
+            获取打卡次数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.GiMap.DataBordController.GetHPageData1">
+            <summary>
+            首页本月新增数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.GiMap.MapController.getAllMarker">
+            <summary>
+            获取标点 垃圾厢房 商店
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.GiMap.MapController.GetAddress(HaikanRefuseClassification.Api.ViewModels.App.GetAddressModel)">
+            <summary>
+            获取地图点位信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.GiMap.MapController.BD2GCJ(System.String,System.String)">
+            <summary>
+            bd09->gcj02
+            </summary>
+            <param name="longitude"></param>
+            <param name="latitude"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.GiMap.MapController.GCJ2BD(System.String,System.String)">
+            <summary>
+            gcj02->bd09
+            </summary>
+            <param name="longitude"></param>
+            <param name="latitude"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.CarWeightController">
+            <summary>
+            统计收运信息
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.CarWeightController.List(HaikanRefuseClassification.Api.RequestPayload.Grab.WeighRequestPayload)">
+            <summary>
+            查询列表
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.GrabRecordController.List(HaikanRefuseClassification.Api.RequestPayload.Grab.GrabRecordRequestPaload)">
+            <summary>
+            垃圾箱房收运记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.GrabRecordController.Listcz(System.String,System.String)">
+            <summary>
+            称重记录详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.GrabRecordController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.GrabRecordController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.GrabRecordController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.QuestionController.ShowQuestion(System.String)">
+            <summary>
+            获取详情
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.QuestionController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.QuestionController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.QuestionController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.RoomAcceptanceController.List(HaikanRefuseClassification.Api.RequestPayload.Grab.GrabRoomAcceptanceRequstPaload)">
+            <summary>
+            垃圾箱房收运记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.RoomAcceptanceController.ListCZ(System.String,System.String)">
+            <summary>
+            称重记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.RoomAcceptanceController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.RoomAcceptanceController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.RoomAcceptanceController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.StatisticsController.List">
+            <summary>
+            数据统计
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.List(HaikanRefuseClassification.Api.RequestPayload.Grab.TravelRequestPayload)">
+            <summary>
+            车辆行驶记录查询
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.GetCarList">
+            <summary>
+            获取车辆信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.ListLonLat">
+            <summary>
+            获取垃圾箱房经纬度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.CarList(System.String)">
+            <summary>
+            车辆历史轨迹
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.ljList(HaikanRefuseClassification.Api.RequestPayload.Grab.TravelRequestPayload)">
+            <summary>
+            垃圾信息
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.grab.TravelController.ToPaeameter(System.Object)">
+            <summary>
+            参数拼接Url
+            </summary>
+            <param name="source">要拼接的实体</param>
+            <paramref name="IsStrUpper">是否开启首字母大写,默认小写</paramref>
+            <returns>Url,</returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.job.CensorController.List(HaikanRefuseClassification.Api.RequestPayload.job.CensorRequestPayload)">
+            <summary>
+            督导员打卡记录查询
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.job.CensorController.Detail(System.String)">
+            <summary>
+            督导员打卡记录详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.job.PostulantController.List(HaikanRefuseClassification.Api.RequestPayload.job.CensorRequestPayload)">
+            <summary>
+            志愿者打卡记录查询
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.job.PostulantController.Detail(System.String)">
+            <summary>
+            志愿者打卡记录详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.Api.V1.MessageController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.MessageController.Count">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.MessageController.Init">
+            <summary>
+            初始化消息标题列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.MessageController.Content(System.Int32)">
+            <summary>
+            获取指定ID的消息内容
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.MessageController.HasRead(System.Int32)">
+            <summary>
+            将消息标为已读
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.MessageController.RemoveRead(System.Int32)">
+            <summary>
+            删除已读消息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.MessageController.Restore(System.Int32)">
+            <summary>
+            恢复已删消息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.GrabageList(HaikanRefuseClassification.Api.RequestPayload.Monitoring.MonitoringRequestPayload)">
+            <summary>
+            厢房监控列表（厢房名称模糊查询）
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.GrabageNums">
+            <summary>
+            获取厢房下拉框
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.AddGrabageMonit(System.Object)">
+            <summary>
+            添加厢房监控信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.GetGrabageMonit(System.Guid)">
+            <summary>
+            获取厢房监控编辑信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.EditGrabageMonit(System.Object)">
+            <summary>
+            编辑厢房监控信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除厢房监控
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">厢房ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">厢房ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.GMonitoringController.shopInfoImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.MonitoringController.CarList(HaikanRefuseClassification.Api.RequestPayload.Monitoring.MonitoringRequestPayload)">
+            <summary>
+            车辆监控列表（车牌号模糊查询）
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.MonitoringController.CarNums">
+            <summary>
+            获取车辆下拉框
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.MonitoringController.AddCarMonit(System.Object)">
+            <summary>
+            添加车辆监控信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.MonitoringController.GetCarMonit(System.Guid)">
+            <summary>
+            获取车辆监控编辑信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.MonitoringController.EditCarMonit(System.Object)">
+            <summary>
+            编辑车辆监控信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.MonitoringController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除车辆监控
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">车辆ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Monitoring.MonitoringController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">厢房ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.List(HaikanRefuseClassification.Api.RequestPayload.Person.AddressRequestPayload)">
+            <summary>
+            地址显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.Create(System.Object)">
+            添加地址
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.GetEdit(System.String)">
+            <summary>
+            获取编辑数据
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.Edit(System.Object)">
+            <summary>
+            保存编辑(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.shopInfoImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.yjExportInfo(HaikanRefuseClassification.Api.RequestPayload.Person.AddressRequestPayload)">
+            <summary>
+            根据查询结果一键导出
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.Batch(System.String,System.String)">
+            <summary>
+            多张或单张生成并导出二维码
+            </summary>
+            <param name="command"></param>
+            <param name="ids">,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.BtnTokenAsync">
+            <summary>
+            获取Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.GetMD5Hash(System.String)">
+            <summary>
+            使用 MD5  对字符串  进行加密
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.AddressController.GetTimeStamp">
+            <summary>
+            获取时间戳
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.List(HaikanRefuseClassification.Api.RequestPayload.Person.GoodsRequestPayload)">
+            <summary>
+            志愿者管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.Create(HaikanRefuseClassification.Api.Entities.Goods)">
+            <summary>
+            添加商品(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.Edit(System.Guid)">
+            <summary>
+            编辑(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.Edit(HaikanRefuseClassification.Api.Entities.Goods)">
+            <summary>
+            保存编辑后的商品(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.ShopList">
+            <summary>
+            下拉框绑定
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.GoodsController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.List(HaikanRefuseClassification.Api.RequestPayload.Person.ResponseRequestPayload)">
+            <summary>
+            问题反馈(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.AppList(HaikanRefuseClassification.Api.RequestPayload.Person.AppResponseRequestPayload)">
+            <summary>
+            App问题反馈(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.Create(HaikanRefuseClassification.Api.ViewModels.Person.ResponseViewModel)">
+            <summary>
+            添加(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.Edit(System.Object)">
+            <summary>
+            保存编辑后的(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.Detail(System.Guid)">
+            <summary>
+            详情
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ResponseController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.List(HaikanRefuseClassification.Api.RequestPayload.RequestPayload)">
+            <summary>
+            商店管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.DbScore(System.Object)">
+            <summary>
+            判断积分
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.EditShopScore(System.Object)">
+            <summary>
+            扣除积分
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.GetEdit(System.Guid)">
+            <summary>
+            获取编辑数据
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.Edit(System.Object)">
+            <summary>
+            保存编辑(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.Detail(System.Guid)">
+            <summary>
+            商店详情
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.ShopController.shopImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入商店信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.List(HaikanRefuseClassification.Api.RequestPayload.Person.SupervisorRequestPayload)">
+            <summary>
+            督导员管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.Create(HaikanRefuseClassification.Api.ViewModels.Person.SupervisorViewModel)">
+            <summary>
+            添加督导员管理(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.Edit(System.Guid)">
+            <summary>
+            编辑督导员管理(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.Edit(HaikanRefuseClassification.Api.ViewModels.Person.SupervisorViewModel)">
+            <summary>
+            保存编辑后的督导员管理(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.Detail(System.Guid)">
+            <summary>
+            督导员管理详情
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.UserInfoImport(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.GetInfo(System.String)">
+            <summary>
+            督导员赋分设备获取信息
+            </summary>
+            <param name="uuid">设备UUID</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.SupervisorController.GetScore">
+            <summary>
+            获取默认赋分分数 好
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.List(HaikanRefuseClassification.Api.RequestPayload.Person.VolunteerRequestPayload)">
+            <summary>
+            志愿者管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.Create(HaikanRefuseClassification.Api.ViewModels.Person.VolunteerViewModel)">
+            <summary>
+            添加志愿者管理(保存)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.Edit(System.Guid)">
+            <summary>
+            编辑志愿者管理(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.Edit(HaikanRefuseClassification.Api.ViewModels.Person.VolunteerViewModel)">
+            <summary>
+            保存编辑后的志愿者管理(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.Detail(System.Guid)">
+            <summary>
+            志愿者管理详情
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Person.VolunteerController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.List(HaikanRefuseClassification.Api.RequestPayload.Rbac.Department.DepartmentRequestPaload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.Create(HaikanRefuseClassification.Api.ViewModels.Rbac.Department.DepartmentCreateViewModel)">
+            <summary>
+            创建科室
+            </summary>
+            <param name="model">科室视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.Edit(System.Guid)">
+            <summary>
+            编辑科室
+            </summary>
+            <param name="guid">角色惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.Edit(HaikanRefuseClassification.Api.ViewModels.Rbac.Department.DepartmentCreateViewModel)">
+            <summary>
+            保存编辑后的科室信息
+            </summary>
+            <param name="model">科室视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.DepartmentList">
+            <summary>
+            获取科室列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.Delete(System.String)">
+            <summary>
+            删除科室
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.Recover(System.String)">
+            <summary>
+            恢复科室
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.Batch(System.String,System.String)">
+            <summary>
+            批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">科室ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.DepartmentController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除科室
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">科室ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.IconController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.IconController.FindByKeyword(System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.List(HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleRequestPayload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.Create(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemRole.RoleCreateViewModel)">
+            <summary>
+            创建角色
+            </summary>
+            <param name="model">角色视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.Edit(System.Guid)">
+            <summary>
+            编辑角色
+            </summary>
+            <param name="guid">角色惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.Edit(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemRole.RoleCreateViewModel)">
+            <summary>
+            保存编辑后的角色信息
+            </summary>
+            <param name="model">角色视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.Delete(System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.Recover(System.String)">
+            <summary>
+            恢复角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.Batch(System.String,System.String)">
+            <summary>
+            批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.AssignPermission(HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleAssignPermissionPayload)">
+            <summary>
+            为指定角色分配权限
+            </summary>
+            <param name="payload">角色分配权限的请求载体类</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.FindListByUserGuid(System.Guid)">
+            <summary>
+            获取指定用户的角色列表
+            </summary>
+            <param name="guid">用户GUID</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.FindSimpleList">
+            <summary>
+            查询所有角色列表(只包含主要的字段信息:name,code)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.RoleController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper,Microsoft.Extensions.Options.IOptions{HaiKanStudentDiningManagementSystem.Api.Configurations.MdDesEncrypt},Microsoft.Extensions.Options.IOptions{HaikanRefuseClassification.Api.Auth.AppAuthenticationSettings})">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.List(HaikanRefuseClassification.Api.RequestPayload.Rbac.User.UserRequestPayload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.RoleList">
+            <summary>
+            角色列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.Create(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserCreateViewModel)">
+            <summary>
+            创建用户
+            </summary>
+            <param name="model">用户视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.Edit(System.Guid)">
+            <summary>
+            编辑用户
+            </summary>
+            <param name="guid">用户GUID</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.Edit(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserEditViewModel)">
+            <summary>
+            保存编辑后的用户信息
+            </summary>
+            <param name="model">用户视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.Listshop">
+            <summary>
+            商店信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.EditUserPwd(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserPwdViewModel)">
+            <summary>
+            修改用户密码
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="ids">用户GUID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.Recover(System.String)">
+            <summary>
+            恢复用户
+            </summary>
+            <param name="ids">用户GUID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.Batch(System.String,System.String)">
+            <summary>
+            批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">用户ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.SetIDCard(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.IdCardInfo)">
+            <summary>
+            绑定身份证号
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.ShowRoleTree">
+            <summary>
+            角色树
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.SaveRoles(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.SaveUserRolesViewModel)">
+            <summary>
+            保存用户-角色的关系映射数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac.UserController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">用户ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.List(HaikanRefuseClassification.Api.RequestPayload.Score.OwnRequestPayload)">
+            <summary>
+            住户信息管理(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.HomeScore(System.Guid)">
+            <summary>
+            获取每月未使用积分
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.EditHomeScore(System.Object)">
+            <summary>
+            编辑保存每月积分
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.ScoreList(HaikanRefuseClassification.Api.RequestPayload.Score.OwnRequestPayload)">
+            <summary>
+            评价积分列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.Createscore(HaikanRefuseClassification.Api.Entities.ScoreSetting)">
+            <summary>
+            添加赋分评价
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.Edit(System.Guid)">
+            <summary>
+            编辑(保存)
+            </summary>
+            <param name="guid">申请惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.Edit(HaikanRefuseClassification.Api.ViewModels.Score.ScoreSettingViewModel)">
+            <summary>
+            保存编辑后的(保存)
+            </summary>
+            <param name="model">申请视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.DivisionTimes(System.Int32)">
+            <summary>
+            每天最多赋分次数（家庭组）
+            </summary>
+            <param name="score"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.Hourintegral(System.Int32)">
+            <summary>
+            每小时对应的积分
+            </summary>
+            <param name="score"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.getSetNumber">
+            <summary>
+            获取赋分次数与对应积分
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.DeleteScoreinfo(System.String)">
+            <summary>
+            删除积分评价
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.ChangesList(HaikanRefuseClassification.Api.RequestPayload.Score.OwnRequestPayload)">
+            <summary>
+            积分兑换记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.OwnerController.ChangesList1(HaikanRefuseClassification.Api.RequestPayload.Score.OwnRequestPayload)">
+            <summary>
+            积分兑换记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.VoluController.List(HaikanRefuseClassification.Api.RequestPayload.Score.VoluRequestPayload)">
+            <summary>
+            志愿者信息(模糊查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.VoluController.Delete(System.String)">
+            <summary>
+            删除单个
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.VoluController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除、恢复
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.VoluController.GetServiceTime(System.Guid)">
+            <summary>
+            获取总服务时长
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.VoluController.GetAllCount(System.Guid)">
+            <summary>
+            获取总服务次数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.VoluController.GetAllScore(System.Guid)">
+            <summary>
+            获取全部分数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.score.VoluController.GetSingleScore(System.Guid)">
+            <summary>
+            获取单个分数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.SupervisorInspection.SupervisorInspectionController.CreateSupervisor(HaikanRefuseClassification.Api.ViewModels.SupervisorInspection.SupervisorInspectionViewModel)">
+            <summary>
+            保存提交的督检
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.SupervisorInspection.SupervisorInspectionController.Detail(System.Guid)">
+            <summary>
+            编辑菜单
+            </summary>
+            <param name="guid">菜单ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.SupervisorInspection.SupervisorInspectionController.Delete(System.String)">
+            <summary>
+            删除单个角色
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.SupervisorInspection.SupervisorInspectionController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">角色ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.SupervisorInspection.SupervisorInspectionController.Batch(System.String,System.String)">
+            <summary>
+            删除多条批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.SupervisorInspection.SupervisorInspectionController.UpLoadAsync">
+            <summary>
+            图片上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.Api.V1.Vote.VoteinitiateController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.ErrorController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.ErrorController.Code(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.OauthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.OauthController.#ctor(Microsoft.Extensions.Options.IOptions{HaikanRefuseClassification.Api.Auth.AppAuthenticationSettings},HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,Microsoft.Extensions.Options.IOptions{HaiKanStudentDiningManagementSystem.Api.Configurations.MdDesEncrypt})">
+            <summary>
+            
+            </summary>
+            <param name="appSettings"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.OauthController.Auth(HaikanRefuseClassification.Api.Entities.User.UserData)">
+            <summary>
+            
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.OauthController.WXAuth2(HaikanRefuseClassification.Api.Entities.User.UserData)">
+            <summary>
+            微信端--手机号与密码登录
+            </summary>
+            <param name="username"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.OauthController.WXAuth(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.WXUserInfo)">
+            <summary>
+            微信授权登录
+            </summary>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.OauthController.WXOpenAuth(System.String)">
+            <summary>
+            微信端--手机号与密码登录
+            </summary>
+            <param name="openid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.OauthController.h5OpenAuth(System.String)">
+            <summary>
+            h5--手机号与密码登录
+            </summary>
+            <param name="openid"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Controllers.TestController">
+            <summary>
+            测试控制器
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Controllers.TestController.Logger">
+            <summary>
+            测试日志
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum">
+            <summary>
+            通用枚举类
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted">
+            <summary>
+            是否已删
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted.All">
+            <summary>
+            所有
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted.No">
+            <summary>
+            否
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted.Yes">
+            <summary>
+            是
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsLocked">
+            <summary>
+            是否已被锁定
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsLocked.UnLocked">
+            <summary>
+            未锁定
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsLocked.Locked">
+            <summary>
+            已锁定
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsEnabled">
+            <summary>
+            是否可用
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsEnabled.No">
+            <summary>
+            否
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsEnabled.Yes">
+            <summary>
+            是
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.Status">
+            <summary>
+            用户状态
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.Status.All">
+            <summary>
+            未指定
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.Status.Forbidden">
+            <summary>
+            已禁用
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.Status.Normal">
+            <summary>
+            正常
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.PermissionType">
+            <summary>
+            权限类型
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.PermissionType.Menu">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.PermissionType.Action">
+            <summary>
+            按钮/操作/功能
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.YesOrNo">
+            <summary>
+            是否枚举
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.YesOrNo.All">
+            <summary>
+            所有
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.YesOrNo.No">
+            <summary>
+            否
+            </summary>
+        </member>
+        <member name="F:HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.YesOrNo.Yes">
+            <summary>
+            是
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty.Code">
+            <summary>
+            权限编码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty.Name">
+            <summary>
+            权限名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty.MenuGuid">
+            <summary>
+            权限关联的菜单GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty.ActionCode">
+            <summary>
+            权限操作码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty.RoleCode">
+            <summary>
+            角色编码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty.IsAssigned">
+            <summary>
+            权限是否已分配到当前角色
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu">
+            <summary>
+            权限实体类
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.PermissionCode">
+            <summary>
+            权限码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.PermissionActionCode">
+            <summary>
+            权限操作码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.PermissionName">
+            <summary>
+            权限名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.PermissionType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.MenuName">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.MenuGuid">
+            <summary>
+            菜单GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.MenuAlias">
+            <summary>
+            菜单别名(与前端路由配置中的name值保持一致)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithMenu.IsDefaultRouter">
+            <summary>
+            是否是默认前端路由
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Entities.YunSendMsg2.SendMsg(System.String,System.String)">
+            <summary>
+            云mas短信http接入方法
+            </summary>
+            <param name="Phone"></param>
+            <param name="SmsContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Entities.YunSendMsg2.GenerateMD5(System.String)">
+            <summary>
+            md5加密
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Entities.YunSendMsg2.Base64Code(System.String)">
+            <summary>
+            Base64加密 
+            </summary>
+            <param name="Message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextService.Configure(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="httpContextAccessor"></param>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextService.Current">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextService.CurrentUser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextService.IsAuthenticated">
+            <summary>
+            是否已授权
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextService.IsSupperAdministator">
+            <summary>
+            是否是超级管理员
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser">
+            <summary>
+            登录用户上下文
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.Guid">
+            <summary>
+            用户GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.DisplayName">
+            <summary>
+            显示名
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.LoginName">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.EmailAddress">
+            <summary>
+            电子邮箱
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.UserType">
+            <summary>
+            用户类型
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.Avator">
+            <summary>
+            头像地址
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.Roleid">
+            <summary>
+            角色id
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.RoleName">
+            <summary>
+            角色名
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.DDY">
+            <summary>
+            督导员
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.YH">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.ZYZ">
+            <summary>
+            志愿者
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.AuthContext.AuthContextUser.SJ">
+            <summary>
+            商家
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Extensions.ConfigurationManager">
+            <summary>
+            配置文件管理器
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.ConfigurationManager.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.ConfigurationManager.AppSettings">
+            <summary>
+            读取配置文件[AppSettings]节点数据
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Extensions.DataTableConvert">
+            <summary>
+            把datatable转换为对象集合列表List&lt;T&gt;
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Extensions.DataTableConvert.ToList``1(System.Data.DataTable)">
+            <summary>
+            将DataTable转换成泛型对象列表
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Extensions.QueryableExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Extensions.QueryableExtension.Paged``1(System.Linq.IQueryable{``0},System.Int32,System.Int32)">
+            <summary>
+            IQueryable分页
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="query"></param>
+            <param name="currentPage"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Extensions.ResponseModelFactory">
+            <summary>
+            /
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.ResponseModelFactory.CreateInstance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Extensions.ResponseModelFactory.CreateResultInstance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Models.Response.ResponseModel">
+            <summary>
+            请求响应实体
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.#ctor">
+            <summary>
+            请求响应实体类
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Models.Response.ResponseModel.Code">
+            <summary>
+            响应代码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Models.Response.ResponseModel.Message">
+            <summary>
+            响应消息内容
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Models.Response.ResponseModel.Data">
+            <summary>
+            返回的响应数据
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.SetSuccess(System.String)">
+            <summary>
+            设置响应状态为成功
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.SetFailed(System.String)">
+            <summary>
+            设置响应状态为失败
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.SetIsTrial(System.String)">
+            <summary>
+            设置响应状态为体验版(返回失败结果)
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.SetError(System.String)">
+            <summary>
+            设置响应状态为错误
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.SetNotFound(System.String)">
+            <summary>
+            设置响应状态为未知资源
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.SetNoPermission(System.String)">
+            <summary>
+            设置响应状态为无权限
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseModel.SetData(System.Object)">
+            <summary>
+            设置响应数据
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.Models.Response.ResponseResultModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.Models.Response.ResponseResultModel.TotalCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Models.Response.ResponseResultModel.SetData(System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <param name="totalCount"></param>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.AttendanceManagement.WorkTime.WorkTimeRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Material.ConsumableRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Department.DepartmentRequestPaload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.RequestPayload.Rbac.Menu.MenuRequestPayload">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Menu.MenuRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Menu.MenuRequestPayload.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Menu.MenuRequestPayload.ParentGuid">
+            <summary>
+            上级菜单GUID
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.RequestPayload.Rbac.Permission.PermissionRequestPayload">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Permission.PermissionRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Permission.PermissionRequestPayload.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Permission.PermissionRequestPayload.SystemMenuUuid">
+            <summary>
+            关联菜单GUID
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleAssignPermissionPayload">
+            <summary>
+            角色分配权限的请求载体类
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleAssignPermissionPayload.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleAssignPermissionPayload.RoleCode">
+            <summary>
+            角色编码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleAssignPermissionPayload.Permissions">
+            <summary>
+            权限列表
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleRequestPayload">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.Role.RoleRequestPayload.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.RequestPayload.Rbac.User.UserRequestPayload">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Rbac.User.UserRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.RequestPayload.RequestPayload">
+            <summary>
+            请求实体
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.RequestPayload.RequestPayload.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.RequestPayload.PageSize">
+            <summary>
+            分页大小
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.RequestPayload.CurrentPage">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.RequestPayload.Sort">
+            <summary>
+            排序对象集合(支持多个字段排序)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.RequestPayload.OrderBy">
+            <summary>
+            组合后的排序字符串
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.RequestPayload.FirstSort">
+            <summary>
+            第一个排序字段(单个字段排序)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.RequestPayload.Kw">
+            <summary>
+            搜索关键字
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.RequestPayload.Sort">
+            <summary>
+            排序实体对象
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.RequestPayload.Sort.#ctor">
+            <summary>
+            排序实体对象构造函数
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Sort.Field">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Sort.Direct">
+            <summary>
+            排序方向
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Score.OwnRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Score.OwnRequestPayload.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Score.VoluRequestPayload.IsDeleted">
+            <summary>
+            是否已被删除
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.RequestPayload.Score.VoluRequestPayload.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddressInfo.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddressInfo.msg">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddressInfo.success">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddressInfo.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.Loc.coordinates">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.Loc.type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.door">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.loc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.town">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.squad">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.village">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.szone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.resregion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.building_num">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.unit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.city">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.county">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.lon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.community">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.building">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.room">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.score">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.street">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.addr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.floor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.lat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.AddrList.room_floor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.Data.hits">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.Data.count">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.AddresInfo.Data.addrList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCard.Data.verifyResp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCard.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCard.msg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCard.tradeCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCard.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCardMan.idCardType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCardMan.idCardValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.CommonCardMan.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.GetCommon.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.GetCommon.msg">
+            <summary>
+            操作成功！
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.GetCommon.tradeCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.GetCommon.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.GetCommon.Data.healthQrCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.GetCommon.Data.qrCodeVaildDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.IDCardTerminal.success">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.IDCardTerminal.respDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.IDCardTerminal.respCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.IDCardTerminal.value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.IDCardTerminal.sign">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.IDCardValue.respSeq">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.App.IDCardValue.idcard">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.ActiveData.List">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Ref_date">
+            <summary>
+            日期，格式为 yyyymmdd
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Session_cnt">
+            <summary>
+            打开次数
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Visit_pv">
+            <summary>
+            访问次数
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Visit_uv">
+            <summary>
+            访问人数
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Visit_uv_new">
+            <summary>
+            新用户数
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Stay_time_uv">
+            <summary>
+            人均停留时长 (浮点型，单位：秒)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Stay_time_session">
+            <summary>
+            次均停留时长 (浮点型，单位：秒)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.List.Visit_depth">
+            <summary>
+            平均访问深度 (浮点型)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.Token.Access_token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.Token.Expires_in">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Data.Token.Errmsg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Url">
+            <summary>
+            链接地址
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Alias">
+            <summary>
+            页面别名
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Icon">
+            <summary>
+            菜单图标(可选)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.ParentGuid">
+            <summary>
+            父级GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.ParentName">
+            <summary>
+            上级菜单名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Level">
+            <summary>
+            菜单层级深度
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Description">
+            <summary>
+            描述信息
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Status">
+            <summary>
+            是否可用(0:禁用,1:可用)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.IsDeleted">
+            <summary>
+            是否已删
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.IsDefaultRouter">
+            <summary>
+            是否为默认路由
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.Component">
+            <summary>
+            前端组件(.vue)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.HideInMenu">
+            <summary>
+            在菜单中隐藏
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.NotCache">
+            <summary>
+            不缓存页面
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel.BeforeCloseFun">
+            <summary>
+            页面关闭前的回调函数
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.SystemMenuUuid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Url">
+            <summary>
+            链接地址
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Alias">
+            <summary>
+            页面别名
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Icon">
+            <summary>
+            菜单图标(可选)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.ParentGuid">
+            <summary>
+            父级GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.ParentName">
+            <summary>
+            上级菜单名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Level">
+            <summary>
+            菜单层级深度
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Description">
+            <summary>
+            描述信息
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Status">
+            <summary>
+            是否可用(0:禁用,1:可用)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.IsDeleted">
+            <summary>
+            是否已删
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.IsDefaultRouter">
+            <summary>
+            是否为默认路由
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.Component">
+            <summary>
+            前端组件(.vue)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.HideInMenu">
+            <summary>
+            在菜单中隐藏
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.NotCache">
+            <summary>
+            不缓存页面
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel.BeforeCloseFun">
+            <summary>
+            页面关闭前的回调函数
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuJsonModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree">
+            <summary>
+            用于iview的菜单树
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.Guid">
+            <summary>
+            GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.ParentGuid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.Title">
+            <summary>
+            标题(菜单名称)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.Expand">
+            <summary>
+            是否展开子节点
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.Disabled">
+            <summary>
+            禁掉响应
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.DisableCheckbox">
+            <summary>
+            禁掉 checkbox
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.Selected">
+            <summary>
+            是否选中子节点	
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.Checked">
+            <summary>
+            是否勾选(如果勾选，子节点也会全部勾选)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree.Children">
+            <summary>
+            子节点属性数组
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionCreateViewModel">
+            <summary>
+            权限实体类
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionEditViewModel">
+            <summary>
+            权限实体类
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionEditViewModel.MenuName">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionJsonModel">
+            <summary>
+            权限实体类
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionJsonModel.MenuName">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionJsonModel.PermissionTypeText">
+            <summary>
+            权限类型的显示文本
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree">
+            <summary>
+            用于角色权限的菜单树
+            </summary>
+        </member>
+        <member name="M:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Guid">
+            <summary>
+            GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.ParentGuid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Title">
+            <summary>
+            标题(菜单名称)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Expand">
+            <summary>
+            是否展开子节点
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Disabled">
+            <summary>
+            禁掉响应
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.DisableCheckbox">
+            <summary>
+            禁掉 checkbox
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Selected">
+            <summary>
+            是否选中子节点	
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Checked">
+            <summary>
+            是否勾选(如果勾选，子节点也会全部勾选)
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.AllAssigned">
+            <summary>
+            当前菜单的所有权限都已分配到指定角色
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Permissions">
+            <summary>
+            当前菜单拥有的权限功能
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree.Children">
+            <summary>
+            子节点属性数组
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionElement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionElement.Code">
+            <summary>
+            权限编码
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionElement.Name">
+            <summary>
+            权限名称
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionElement.IsAssignedToRole">
+            <summary>
+            是否已分配到指定角色
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemRole.RoleCreateViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemRole.RoleJsonModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.SaveUserRolesViewModel">
+            <summary>
+            用户获得的角色实体对象
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.SaveUserRolesViewModel.UserGuid">
+            <summary>
+            用户GUID
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.SaveUserRolesViewModel.AssignedRoles">
+            <summary>
+            已获得的角色代码集合
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserCreateViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserEditViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserJsonModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserPhoneInfoModel.phoneNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserPhoneInfoModel.purePhoneNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserPhoneInfoModel.countryCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.UserPhoneInfoModel.watermark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.Watermark.timestamp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.Rbac.SystemUser.Watermark.appid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.TkenInfo.Token.msg">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.TkenInfo.Token.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.TkenInfo.Token.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.TkenInfo.Token.success">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaikanRefuseClassification.Api.ViewModels.TkenInfo.Data.token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Configurations.AppSettings">
+            <summary>
+            程序配置选项
+            </summary>
+        </member>
+        <member name="P:HaiKanStudentDiningManagementSystem.Api.Configurations.AppSettings.IsTrialVersion">
+            <summary>
+            是否是体验版
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Controllers.Api.V1.grab.GrabageDisposalController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper,Microsoft.Extensions.Options.IOptions{HaiKanStudentDiningManagementSystem.Api.Configurations.MdDesEncrypt})">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Controllers.Api.V1.grab.GrabageDisposalController.VillageList(HaikanRefuseClassification.Api.RequestPayload.Grab.GrabRequestPaload)">
+            <summary>
+            各社区赋分
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Controllers.Api.V1.grab.GrabageDisposalController.List(HaikanRefuseClassification.Api.RequestPayload.Grab.GrabRequestPaload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Controllers.Api.V1.grab.GrabageDisposalController.Delete(System.String)">
+            <summary>
+            删除垃圾收运记录
+            </summary>
+            <param name="ids">角色ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Controllers.Api.V1.grab.GrabageDisposalController.Recover(System.String)">
+            <summary>
+            恢复垃圾收运记录
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Controllers.Api.V1.grab.GrabageDisposalController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.CanAccess">
+            <summary>
+            用户可以访问的控制器及操作权限
+            </summary>
+        </member>
+        <member name="P:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.CanAccess.Controller">
+            <summary>
+            控制器
+            </summary>
+        </member>
+        <member name="P:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.CanAccess.Actions">
+            <summary>
+            Action集合
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.OwnedApiPermission">
+            <summary>
+            用户拥有的API操作权限
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.OwnedApiPermission.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.OwnedApiPermission.CanAccesses">
+            <summary>
+            可以访问的API控制器集合
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.OwnedApiPermission.Can(System.String,System.String)">
+            <summary>
+            是否可以访问
+            </summary>
+            <param name="controller"></param>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.CustomAuthorizeAttribute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.CustomAuthorizeAttribute.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.CustomAuthorizeAttribute.ActionAlias">
+            <summary>
+            操作的别名
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.CustomAuthorizeAttribute.OnAuthorization(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.ExceptionMiddleware">
+            <summary>
+            异常中间件
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.HttpException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.HttpException.#ctor(System.Net.HttpStatusCode)">
+            <summary>
+            
+            </summary>
+            <param name="statusCode"></param>
+        </member>
+        <member name="P:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.HttpException.StatusCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.UnauthorizeException">
+            <summary>
+            未授权的异常类
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.UnauthorizeException.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.ValidateModelAttribute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.CustomException.ValidateModelAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.EntityFrameworkExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.EntityFrameworkExtension.FromSql``1(Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade,System.String,System.Object)">
+            <summary>
+            调用ADO.NET执行SQL语句查询泛型集合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="database">数据库连接上下文</param>
+            <param name="sql">SQL语句</param>
+            <param name="parameters">SQL语句需要的参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.OrderByExtensions">
+            <summary>
+            排序静态扩展类
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.QueryParamNameAttribute">
+            <summary>
+            Use for an alternative param name other than the propery name
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.QueryParamIgnoreAttribute">
+            <summary>
+            Ignore this property
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.TypeConvertor">
+            <summary>
+            Convert a base data type to another base data type
+            </summary>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.TypeConvertor.ToNetType(System.Data.DbType)">
+            <summary>
+            Convert db type to .Net data type
+            </summary>
+            <param name="dbType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.TypeConvertor.ToNetType(System.Data.SqlDbType)">
+            <summary>
+            Convert TSQL type to .Net data type
+            </summary>
+            <param name="sqlDbType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.TypeConvertor.ToDbType(System.Type)">
+            <summary>
+            Convert .Net type to Db type
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.TypeConvertor.ToDbType(System.Data.SqlDbType)">
+            <summary>
+            Convert TSQL data type to DbType
+            </summary>
+            <param name="sqlDbType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.TypeConvertor.ToSqlDbType(System.Type)">
+            <summary>
+            Convert .Net type to TSQL data type
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKanStudentDiningManagementSystem.Api.Extensions.DataAccess.TypeConvertor.ToSqlDbType(System.Data.DbType)">
+            <summary>
+            Convert DbType type to TSQL data type
+            </summary>
+            <param name="dbType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Models.Menu.Router">
+            <summary>
+            用于前端的路由对象
+            </summary>
+        </member>
+        <member name="T:HaiKanStudentDiningManagementSystem.Api.Models.Menu.RouterMeta">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.List(HaikanRefuseClassification.Api.RequestPayload.Rbac.Menu.MenuRequestPayload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.Create(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuCreateViewModel)">
+            <summary>
+            创建菜单
+            </summary>
+            <param name="model">菜单视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.Edit(System.Guid)">
+            <summary>
+            编辑菜单
+            </summary>
+            <param name="guid">菜单ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.Edit(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuEditViewModel)">
+            <summary>
+            保存编辑后的菜单信息
+            </summary>
+            <param name="model">菜单视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.Tree(System.String)">
+            <summary>
+            菜单树
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.Delete(System.String)">
+            <summary>
+            删除菜单
+            </summary>
+            <param name="ids">菜单ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.Recover(System.String)">
+            <summary>
+            恢复菜单
+            </summary>
+            <param name="ids">菜单ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.Batch(System.String,System.String)">
+            <summary>
+            批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">菜单ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除菜单
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">菜单ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuController.UpdateStatus(System.String)">
+            <summary>
+            删除菜单
+            </summary>
+            <param name="status">菜单状态</param>
+            <param name="ids">菜单ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuTreeHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.MenuTreeHelper.BuildTree(System.Collections.Generic.List{HaikanRefuseClassification.Api.ViewModels.Rbac.SystemMenu.MenuTree},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="menus"></param>
+            <param name="selectedGuid"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController">
+            <summary>
+            权限控制器
+            </summary>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.#ctor(HaikanRefuseClassification.Api.Entities.RefuseClassificationContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dbContext"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.List(HaikanRefuseClassification.Api.RequestPayload.Rbac.Permission.PermissionRequestPayload)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.Create(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionCreateViewModel)">
+            <summary>
+            创建权限
+            </summary>
+            <param name="model">权限视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.Edit(System.Guid)">
+            <summary>
+            编辑权限
+            </summary>
+            <param name="code">权限惟一编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.Edit(HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionEditViewModel)">
+            <summary>
+            保存编辑后的权限信息
+            </summary>
+            <param name="model">权限视图实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.Delete(System.String)">
+            <summary>
+            删除权限
+            </summary>
+            <param name="ids">权限ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.Recover(System.String)">
+            <summary>
+            恢复权限
+            </summary>
+            <param name="ids">权限ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.Batch(System.String,System.String)">
+            <summary>
+            批量操作
+            </summary>
+            <param name="command"></param>
+            <param name="ids">权限ID,多个以逗号分隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.PermissionTree(System.String)">
+            <summary>
+            角色-权限菜单树
+            </summary>
+            <param name="code">角色编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.UpdateIsDelete(HaikanRefuseClassification.Api.Entities.Enums.CommonEnum.IsDeleted,System.String)">
+            <summary>
+            删除权限
+            </summary>
+            <param name="isDeleted"></param>
+            <param name="ids">权限ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionController.UpdateStatus(System.String)">
+            <summary>
+            删除权限
+            </summary>
+            <param name="status">权限状态</param>
+            <param name="ids">权限ID字符串,多个以逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="T:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionTreeHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HaikanEnrollmentRegistration.Api.Controllers.Api.V1.Rbac.PermissionTreeHelper.FillRecursive(System.Collections.Generic.List{HaikanRefuseClassification.Api.ViewModels.Rbac.SystemPermission.PermissionMenuTree},System.Collections.Generic.List{HaikanRefuseClassification.Api.Entities.QueryModels.SystemPermission.SystemPermissionWithAssignProperty},System.Nullable{System.Guid},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="menus">菜单集合</param>
+            <param name="permissions">权限集合</param>
+            <param name="parentGuid">父级菜单GUID</param>
+            <param name="isSuperAdministrator">是否为超级管理员角色</param>
+            <returns></returns>
+        </member>
+        <member name="M:HaiKan3.Utils.PhotoCompression.CompressImage(System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            无损压缩图片
+            </summary>
+            <param name="sFile">原图片地址</param>
+            <param name="dFile">压缩后保存图片地址</param>
+            <param name="flag">压缩质量（数字越小压缩率越高）1-100</param>
+            <param name="size">压缩后图片的最大大小</param>
+            <param name="sfsc">是否是第一次调用</param>
+            <returns></returns>
+        </member>
+        <member name="F:Haikan3.Utils.AESHelper.PublicKey">
+            <summary>
+            默认密钥-密钥的长度必须是32
+            </summary>
+        </member>
+        <member name="F:Haikan3.Utils.AESHelper.Iv">
+            <summary>
+            默认向量
+            </summary>
+        </member>
+        <member name="M:Haikan3.Utils.AESHelper.Encrypt(System.String)">
+            <summary>  
+            AES加密  
+            </summary>  
+            <param name="str">需要加密字符串</param>  
+            <returns>加密后字符串</returns>  
+        </member>
+        <member name="M:Haikan3.Utils.AESHelper.Decrypt(System.String)">
+            <summary>  
+            AES解密  
+            </summary>  
+            <param name="str">需要解密字符串</param>  
+            <returns>解密后字符串</returns>  
+        </member>
+        <member name="M:Haikan3.Utils.AESHelper.Encrypt(System.String,System.String)">
+            <summary>
+            AES加密
+            </summary>
+            <param name="str">需要加密的字符串</param>
+            <param name="key">32位密钥</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:Haikan3.Utils.AESHelper.Decrypt(System.String,System.String)">
+            <summary>
+            AES解密
+            </summary>
+            <param name="str">需要解密的字符串</param>
+            <param name="key">32位密钥</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="M:HaikanTeachingProcess.YunSendMsg.SendMsg(System.String,System.String)">
+            <summary>
+            云mas短信http接入方法
+            </summary>
+            <param name="Phone"></param>
+            <param name="SmsContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanTeachingProcess.YunSendMsg.GenerateMD5(System.String)">
+            <summary>
+            md5加密
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HaikanTeachingProcess.YunSendMsg.Base64Code(System.String)">
+            <summary>
+            Base64加密 
+            </summary>
+            <param name="Message"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.JWDBaidu.status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.JWDBaidu.result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.JWDBaidu.ResultItem.x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.JWDBaidu.ResultItem.y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.msg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.success">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.CardInfosItem.business1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.CardInfosItem.business2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.CardInfosItem.business3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.CardInfosItem.business4">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.CardInfosItem.number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.cardInfos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.content">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.count">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.important">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.importent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.len">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.RfidListItem.unusual">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.alarm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.altitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.angle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.fuelStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.fuelTankAdd">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.fuelTankCapacity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.fuelTankLeak">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.fuelTankOilTemp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.fuelTankTemp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.latitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.loadStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.loadWeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.longitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.mileage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.monitorName">
+            <summary>
+            浙A6S826
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.rfidList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.satellitesNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.speed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.tyrePressure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.tyreStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.Track.DataItem.tyreTemp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.additionalInformation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.expiration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.expired">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.expiresIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.refreshToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.scope">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.tokenType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.RefreshToken.expiration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SmartCampusManagementWatchDog.Model.TrackToken.RefreshToken.value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaiKanTaskHousekeeperWatchDog.Model.Token.msg">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="P:HaiKanTaskHousekeeperWatchDog.Model.Token.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaiKanTaskHousekeeperWatchDog.Model.Token.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaiKanTaskHousekeeperWatchDog.Model.Token.success">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HaiKanTaskHousekeeperWatchDog.Model.Data.token">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

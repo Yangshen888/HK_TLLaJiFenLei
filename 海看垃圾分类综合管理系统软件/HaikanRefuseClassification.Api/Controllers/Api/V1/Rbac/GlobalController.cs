@@ -1,0 +1,214 @@
+﻿using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using AutoMapper;
+using HaiKan3.Utils;
+using HaikanRefuseClassification.Api.Entities;
+using HaikanRefuseClassification.Api.Extensions;
+using HaikanRefuseClassification.Api.Extensions.CustomException;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace HaikanRefuseClassification.Api.Controllers.Api.V1.Rbac
+{
+    [Route("api/v1/rbac/[controller]/[action]")]
+    [ApiController]
+    public class GlobalController : ControllerBase
+    {
+        private readonly RefuseClassificationContext _dbContext;
+        private readonly IMapper _mapper;
+#pragma warning disable CS0618 // 类型或成员已过时
+        private IHostingEnvironment _hostEnv;
+#pragma warning restore CS0618 // 类型或成员已过时
+
+        /// <summary>
+        ///构造函数
+        /// </summary>
+        /// <param name="dbContext"></param>
+        /// <param name="mapper"></param>
+
+        [Obsolete]
+        public GlobalController(RefuseClassificationContext dbContext, IMapper mapper, IHostingEnvironment ihhostingEnvironment)
+
+        {
+            _dbContext = dbContext;
+            _mapper = mapper;
+            _hostEnv = ihhostingEnvironment;
+        }
+        #region 查看列表
+        /// <summary>
+        /// 查看数据列表
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult List()
+        {
+            var response = ResponseModelFactory.CreateResultInstance;
+            using (_dbContext)
+            {
+                var query = _dbContext.SystemSetting.AsQueryable().ToList();
+                response.SetData(query);
+                return Ok(response);
+            }
+        }
+        #endregion
+
+        #region 修改
+        /// <summary>
+        /// 保存编辑后的角色信息
+        /// </summary>
+        /// <param name="model">角色视图实体</param>
+        /// <returns></returns>
+        [HttpPost]
+        [ProducesResponseType(200)]
+        public IActionResult Edit(SystemSetting model)
+        {
+            var response = ResponseModelFactory.CreateInstance;
+            using (_dbContext)
+            {
+                var query = _dbContext.SystemSetting.FirstOrDefault(x => x.ClobalUuid == model.ClobalUuid);
+                query.ClobalName = model.ClobalName;
+                query.ClobalSuo = model.ClobalSuo;
+                query.GlobalLogo = model.GlobalLogo;
+                query.AddTime = DateTime.Now;
+                query.IsDeleted = 0;
+                _dbContext.SaveChanges();
+                response.SetData("True");
+                return Ok(response);
+            }
+        }
+        #endregion
+
+        #region 图片上传
+        /// <summary>
+        /// 图片上传
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        [Microsoft.AspNetCore.Authorization.AllowAnonymous]
+        public async Task<IActionResult> UpLoadAsync()
+        {
+            var response = ResponseModelFactory.CreateInstance;
+            //var check = System.IO.File.Exists(filename);
+
+            var files = Request.Form.Files;
+            if (files == null || files.Count() <= 0)
+            {
+                response.SetFailed("请上图片文件");
+                return Ok(response);
+            }
+            //var paths = new List<string>();
+            //var dataPaths = new List<string>();
+            var allowType = new string[] { "image/jpeg", "image/png", "image/jpg" };
+            var message = "";
+            try
+            {
+                if (files.Any(c => allowType.Contains(c.ContentType)))
+                {
+
+                    //foreach (var file in files)
+                    //{
+                    if (files[0].Length > 1024 * 1024 * 5)
+                    {
+                        message += files[0].FileName + "大小超过5M";
+                        response.SetFailed(message);
+                        return Ok(response);
+                    }
+                    int index = files[0].FileName.LastIndexOf('.');
+                    string prefix = DateTime.Now.ToString("yyyyMMdd_HHmmssfff") + "_" + Guid.NewGuid().ToString();
+                    string fname = prefix + files[0].FileName.Substring(index);
+                    string strpath = Path.Combine("UploadFiles", fname);
+                    string path = Path.Combine(_hostEnv.WebRootPath, strpath);
+                    //System.IO.File.Create(path);
+                    var stream = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite);
+                    await files[0].CopyToAsync(stream);
+
+                    stream.Close();
+                    bool toCompression = false;
+                    string fname2 = "";
+                    string strpath2 = "";
+
+                    if (files[0].Length > (1024 * 1024 * 1))
+                    {
+                        fname2 = prefix + "_cp" + files[0].FileName.Substring(index);
+                        strpath2 = Path.Combine("UploadFiles", fname2);
+                        var dFile = Path.Combine(_hostEnv.WebRootPath, strpath2);
+                        var num = 1024 * 1024 * 1.0 / files[0].Length;
+                        int flag = (int)(num * 100);
+                        if (flag < 50)
+                        {
+                            flag = (int)(flag * 1.7);
+                        }
+                        toCompression = PhotoCompression.CompressImage(path, dFile, flag, 1024);
+                        if (toCompression)
+                        {
+                            if (System.IO.File.Exists(path))
+                            {
+                                FileInfo info = new FileInfo(path);
+                                if (info.Attributes != FileAttributes.ReadOnly)
+                                {
+                                    System.IO.File.Delete(path);
+
+                                }
+
+                            }
+                        }
+                    }
+                    else if (files[0].Length > (1024 * 1024 * 0.5) && files[0].Length <= (1024 * 1024 * 1))
+                    {
+                        fname2 = prefix + "_cp" + files[0].FileName.Substring(index);
+                        strpath2 = Path.Combine("UploadFiles", fname2);
+                        var dFile = Path.Combine(_hostEnv.WebRootPath, strpath2);
+
+                        int flag = 90;
+
+                        toCompression = PhotoCompression.CompressImage(path, dFile, flag, 500);
+                        if (toCompression)
+                        {
+                            if (System.IO.File.Exists(path))
+                            {
+                                FileInfo info = new FileInfo(path);
+                                if (info.Attributes != FileAttributes.ReadOnly)
+                                {
+                                    System.IO.File.Delete(path);
+
+                                }
+
+                            }
+                        }
+                    }
+                    if (toCompression)
+                    {
+                        response.SetData(new { strpath = strpath2, fname = fname2 });
+
+                    }
+                    else
+                    {
+                        response.SetData(new { strpath, fname });
+                    }
+
+                }
+                if (message.Length > 0)
+                {
+                    response.SetFailed(message);
+                }
+                //response.SetData(new { paths, dataPaths });
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                response.SetFailed(ex.Message);
+                return Ok(response);
+            }
+        }
+        #endregion
+    }
+}
+
+
+
+
+
+

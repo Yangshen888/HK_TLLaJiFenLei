@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d230a66"],{ecd6:function(n,p,o){n.exports=o.p+"img/head_bg.4f826a40.png"}}]);

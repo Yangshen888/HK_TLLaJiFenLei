@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e6487"],{"97a4":function(n,o,p){n.exports=p.p+"fonts/DS-DIGIT.223f2246.TTF"}}]);

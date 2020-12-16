@@ -1,0 +1,518 @@
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.exe
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.deps.json
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.json
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaiKanStudentDiningManagementSystem.Api.xml
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Haikan3.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXmlFormats.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.APM.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.AspNet.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.NeuChar.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.TenPay.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Doc.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.License.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Pdf.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CopyComplete
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.Manifest.cache
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.xml
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.xml
+C:\Users\Administrator\Desktop\新建文件夹 (5)\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csprojAssemblyReference.cache
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.config
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.json
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\libman.json
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.exe
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.xml
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.deps.json
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.json
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.dev.json
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaiKanStudentDiningManagementSystem.Api.xml
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Haikan3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXmlFormats.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\QRCoder.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.APM.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.AspNet.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.NeuChar.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.TenPay.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Doc.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.License.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Pdf.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csprojAssemblyReference.cache
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfoInputs.cache
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfo.cs
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CoreCompileInputs.cache
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.RazorTargetAssemblyInfo.cache
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CopyComplete
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.Manifest.cache
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.xml
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+D:\我的工作目录\work_桐庐垃圾分类\201126_15.12\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.genruntimeconfig.cache
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.config
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.json
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\libman.json
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.exe
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.xml
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.deps.json
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.json
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.dev.json
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Haikan3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXmlFormats.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\QRCoder.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.APM.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.AspNet.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.NeuChar.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.TenPay.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Doc.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.License.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Pdf.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfoInputs.cache
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfo.cs
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CoreCompileInputs.cache
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.RazorTargetAssemblyInfo.cache
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CopyComplete
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.Manifest.cache
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.xml
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.genruntimeconfig.cache
+D:\我的工作目录\work_桐庐垃圾分类\201209_08.44\桐庐垃圾分类智能管理系统平台\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csprojAssemblyReference.cache
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.config
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\libman.json
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\appsettings.json
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.exe
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.xml
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.deps.json
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.json
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.runtimeconfig.dev.json
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Haikan3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\log4net.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXmlFormats.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\NPOI.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\QRCoder.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.APM.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.CO2NET.AspNet.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.NeuChar.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Senparc.Weixin.TenPay.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Doc.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.License.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Spire.Pdf.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csprojAssemblyReference.cache
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfoInputs.cache
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.AssemblyInfo.cs
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CoreCompileInputs.cache
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.RazorTargetAssemblyInfo.cache
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.csproj.CopyComplete
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.Manifest.cache
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\staticwebassets\HaikanRefuseClassification.Api.StaticWebAssets.xml
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.dll
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.pdb
+D:\我的工作目录\work_桐庐垃圾分类\201211_11.43产品\ZHZW-JG-001-0003海看垃圾分类综合管理系统软件\HaikanRefuseClassification.Api\obj\Debug\netcoreapp3.1\HaikanRefuseClassification.Api.genruntimeconfig.cache

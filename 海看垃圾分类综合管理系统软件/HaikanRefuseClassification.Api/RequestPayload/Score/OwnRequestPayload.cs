@@ -1,0 +1,25 @@
+﻿using HaikanRefuseClassification.Api.Entities.Enums;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace HaikanRefuseClassification.Api.RequestPayload.Score
+{
+    public class OwnRequestPayload:RequestPayload
+    {
+        public string kw1 { get; set; }
+        public string[] kw2 { get; set; }
+        public string vuuid { get; set; }
+        /// <summary>
+        /// 是否已被删除
+        /// </summary>
+        public CommonEnum.IsDeleted IsDeleted { get; set; }
+        /// <summary>
+        /// 状态
+        /// </summary>
+        public CommonEnum.Status Status { get; set; }
+        public string street { get; set; }
+        public string ccmmunity { get; set; }
+    }
+}

@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace HaikanRefuseClassification.Api.ViewModels.Base
+{
+    public class VillageParms
+    {
+        public Guid? guid { get; set; }
+        public string trashName { get; set; }
+    }
+}
