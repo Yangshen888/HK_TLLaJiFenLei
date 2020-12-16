@@ -1,0 +1,244 @@
+
+.map {
+	width: 100%;
+	height: 260px;
+}
+.uni-list-cell-left {
+	padding: 0 30rpx;
+}
+.text-desc {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 10rpx 20rpx;
+}
+.colorRed {
+	color: red;
+}
+.colorGreen {
+	color: #32cd32;
+}
+.colorYellow {
+	color: yellow;
+}
+.colorBlue {
+	color: #007aff;
+}
+.bgBlue {
+	background-color: #007aff;
+}
+.bgGreen {
+	background-color: #32cd32;
+}
+.bgAsh {
+	background-color: #c8c7cc;
+}
+.uni-timeline {
+	padding: 30rpx 20rpx;
+}
+.uni-timeline-item-content-t {
+	font-weight: bold;
+}
+.desc-pad {
+	padding: 0 0rpx;
+}
+.desc-pad .bz {
+	color: rgb(0, 122, 255);
+}
+.desc-pad .bz .icon {
+	color: rgb(0, 122, 255);
+}
+.uni-timeline-last-item .uni-timeline-item-divider {
+	background: #bbb;
+}
+.CBlue {
+	background-color: #007aff;
+	-webkit-box-shadow: 0 5px 5px #007aff;
+	        box-shadow: 0 5px 5px #007aff;
+}
+.CGreen {
+	background-color: #32cd32;
+	-webkit-box-shadow: 0 5px 5px #32cd32;
+	        box-shadow: 0 5px 5px #32cd32;
+}
+.CAsh {
+	background-color: #c8c7cc;
+	-webkit-box-shadow: 0 5px 5px #c8c7cc;
+	        box-shadow: 0 5px 5px #c8c7cc;
+}
+.Ccc {
+	background-color: #ccc;
+}
+.module {
+	overflow: hidden;
+	margin: 20rpx auto;
+	width: 220rpx;
+	height: 220rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	color: #fff;
+	text-align: center;
+}
+.module .text {
+	font-size: 20px;
+	margin: 70rpx auto 10rpx;
+}
+.uni-timeline-item .uni-timeline-item-content {
+	width: 100%;
+	padding-right: 20rpx;
+}
+.content-show {
+	width: 100%;
+}
+.sign-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 30rpx 24rpx;
+	border-bottom: 1rpx solid #333;
+}
+.sign-title .portrait {
+	width: 100rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	background-color: #007aff;
+	color: #fff;
+	font-size: 28rpx;
+	text-align: center;
+}
+.sign-title .sign-title-l {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.sign-title .sign-title-l .text {
+	margin-left: 20rpx;
+}
+.sign-title .sign-title-l .text .name {
+	font-size: 32rpx;
+}
+.sign-title .sign-title-l .text .gz {
+	color: darkblue;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+}
+.sign-title .sign-title-l .text .gz text {
+	display: inline-block;
+}
+.sign-title .sign-title-l .text .gz .t1 {
+	overflow: hidden; /*超出部分隐藏*/
+	text-overflow: ellipsis; /* 超出部分显示省略号 */
+	white-space: nowrap; /*规定段落中的文本不进行换行 */
+	width: 166rpx; /*需要配合宽度来使用*/
+}
+.iswq {
+	padding: 0px 12px;
+	color: #99cc33;
+	border: 1px solid #99cc33;
+	width: 26px;
+	height: 24px;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	margin-left: 20rpx;
+	display: inline-block;
+}
+.desc-pad .last {
+	margin-bottom: 80rpx;
+}
+.relocation {
+	color: #0000ff;
+}
+.uni-popup .content .text {
+	color: #666666;
+}
+/* timeline */
+.uni-timeline {
+	margin: 35rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	position: relative;
+}
+.uni-timeline-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	position: relative;
+	padding-bottom: 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	overflow: hidden;
+}
+.uni-timeline-item .uni-timeline-item-keynode {
+	width: 160rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding-right: 20rpx;
+	text-align: right;
+	line-height: 65rpx;
+}
+.uni-timeline-item .uni-timeline-item-divider {
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	position: relative;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	background-color: #bbb;
+}
+.uni-timeline-item-divider::before,
+.uni-timeline-item-divider::after {
+	position: absolute;
+	left: 15rpx;
+	width: 1rpx;
+	height: 100vh;
+	content: '';
+	background: inherit;
+}
+.uni-timeline-item-divider::before {
+	bottom: 100%;
+}
+.uni-timeline-item-divider::after {
+	top: 100%;
+}
+.uni-timeline-last-item .uni-timeline-item-divider:after {
+	display: none;
+}
+.uni-timeline-first-item .uni-timeline-item-divider:before {
+	display: none;
+}
+.uni-timeline-item .uni-timeline-item-content {
+	padding-left: 20rpx;
+}
+.uni-timeline-last-item .bottom-border::after {
+	display: none;
+}
+.uni-timeline-item-content .datetime {
+	color: #cccccc;
+}
+/* 自定义节点颜色 */
+.uni-timeline-last-item .uni-timeline-item-divider {
+	background-color: #1aad19;
+}
+

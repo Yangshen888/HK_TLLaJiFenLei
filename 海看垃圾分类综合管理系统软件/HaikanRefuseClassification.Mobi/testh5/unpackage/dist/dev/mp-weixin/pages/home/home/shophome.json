@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商户",
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
+    "cmd-avatar": "/components/cmd-avatar/cmd-avatar",
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item",
+    "cmd-icon": "/components/cmd-icon/cmd-icon",
+    "qr": "/components/tki-qrcode/tki-qrcode"
+  }
+}

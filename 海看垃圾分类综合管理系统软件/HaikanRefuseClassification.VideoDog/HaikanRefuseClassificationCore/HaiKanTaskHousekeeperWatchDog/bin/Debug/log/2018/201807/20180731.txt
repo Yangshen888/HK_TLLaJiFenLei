@@ -1,0 +1,3 @@
+[记录时间：2018-07-31 20:17:41,797 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-07-31 20:17:41,824 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2018-07-31 20:17:43,000 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：进入InsertMakeAppointment方法！ 

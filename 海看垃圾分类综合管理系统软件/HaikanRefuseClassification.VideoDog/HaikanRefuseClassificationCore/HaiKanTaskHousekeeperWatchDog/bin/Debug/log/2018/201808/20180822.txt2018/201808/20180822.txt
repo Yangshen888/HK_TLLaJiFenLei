@@ -1,0 +1,61 @@
+[记录时间：2018-08-22 17:32:42,185 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-08-22 17:32:42,228 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2018-08-22 17:32:43,354 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：进入InsertMakeAppointment方法！ 
+[记录时间：2018-08-22 17:32:43,491 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,493 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8494的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,597 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,599 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8497的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,609 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,612 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8535的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,722 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,725 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8538的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,730 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,731 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8541的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,840 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,843 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8544的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,846 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,848 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8548的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,954 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,956 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8551的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:43,958 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:43,960 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8554的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,063 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,065 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8557的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,067 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,069 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8560的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,161 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,164 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8563的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,267 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,270 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8566的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,274 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,275 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8569的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,279 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,281 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8572的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,402 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,404 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8575的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,512 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,514 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8596的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,516 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,517 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8599的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,613 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,615 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8602的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,618 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,621 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8605的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,623 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,624 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8608的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,738 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,741 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8611的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,743 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,746 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8614的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,858 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,861 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8617的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,863 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,866 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8626的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,962 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,964 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8629的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:44,966 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:44,968 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8632的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:45,061 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(192.168.0.42)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:45,064 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8635的数据执行写入预约申请数据到控制器方法失败了！！ 
+[记录时间：2018-08-22 17:32:45,066 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：连接门禁控制器(1.2.3)< red>失败！</red> 
+[记录时间：2018-08-22 17:32:45,067 ]线程ID:[5] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：id为8676的数据执行写入预约申请数据到控制器方法失败了！！ 

@@ -1,0 +1,2 @@
+[记录时间：2018-12-29 19:20:45,017 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-12-29 19:20:45,132 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 

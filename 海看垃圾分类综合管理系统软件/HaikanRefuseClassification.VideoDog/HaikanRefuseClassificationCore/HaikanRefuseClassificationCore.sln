@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaikanRefuseClassificationCore", "HaikanRefuseClassificationCore\HaikanRefuseClassificationCore.csproj", "{6CCF1DDD-4718-48BC-BACB-5E252E0102A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaiKanTaskHousekeeperWatchDog", "HaiKanTaskHousekeeperWatchDog\HaiKanTaskHousekeeperWatchDog.csproj", "{EA3840A0-CDED-4D76-847A-E69D668A1EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CCF1DDD-4718-48BC-BACB-5E252E0102A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCF1DDD-4718-48BC-BACB-5E252E0102A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCF1DDD-4718-48BC-BACB-5E252E0102A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCF1DDD-4718-48BC-BACB-5E252E0102A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3840A0-CDED-4D76-847A-E69D668A1EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3840A0-CDED-4D76-847A-E69D668A1EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3840A0-CDED-4D76-847A-E69D668A1EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3840A0-CDED-4D76-847A-E69D668A1EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {000BD51F-928B-45A0-A8C2-A6B7B7DAE3D6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+<view style="padding-top:2rem;"><cu-custom vue-id="7e3e6c11-1" bgColor="bg-gradual-blue" isBack="{{true}}" tourl="/pages/home/index" bind:__l="__l" vue-slots="{{['backText','content']}}"><view slot="backText">返回</view><view slot="content">家庭码绑定</view></cu-custom></view>

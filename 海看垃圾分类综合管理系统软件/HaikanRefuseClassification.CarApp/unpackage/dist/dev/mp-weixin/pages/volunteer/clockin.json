@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "志愿者打卡",
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon/uni-icon",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

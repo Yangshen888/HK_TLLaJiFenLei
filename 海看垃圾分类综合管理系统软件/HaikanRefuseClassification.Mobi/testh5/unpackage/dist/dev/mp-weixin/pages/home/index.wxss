@@ -1,0 +1,295 @@
+
+button {
+    margin-top: 40rpx;
+}
+.header {
+}
+.header image {
+  	width: -webkit-fill-available;
+  	height: 160px;
+}
+.bg-color{
+	  background:#fff;
+	  padding: 20px 10px;
+}
+.nav-title{
+	  font-weight:bold;
+}
+.cuIcon-emoji:before {
+	color:#7b07ab;
+}
+
+
+.person-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 150px;
+  padding-left: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#365fff), to(#36bbff));
+  background: -webkit-linear-gradient(left, #365fff, #36bbff);
+  background: linear-gradient(to right, #365fff, #36bbff);
+}
+.person-head-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  margin-left: 10px;
+}
+.person-head-nickname {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.person-head-username {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+.person-list {
+  line-height: 0;
+}
+.btn-logout {
+  margin-top: 100rpx;
+  width: 80%;
+  -webkit-border-radius: 50rpx;
+          border-radius: 50rpx;
+  font-size: 16px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#365fff), to(#36bbff));
+  background: -webkit-linear-gradient(left, #365fff, #36bbff);
+  background: linear-gradient(to right, #365fff, #36bbff);
+}
+.btn-logout-hover {
+  background: -webkit-gradient(linear, left top, right top, from(#365fdd), to(#36bbfa));
+  background: -webkit-linear-gradient(left, #365fdd, #36bbfa);
+  background: linear-gradient(to right, #365fdd, #36bbfa);
+}
+
+
+button {
+    margin-top: 40rpx;
+}
+.header {
+}
+.header image {
+  	width: -webkit-fill-available;
+  	height: 160px;
+}
+.cuIcon-search:before {
+  	font-weight: bold;
+  	color: #1AAD19;
+  	font-size: 30px;
+}
+.cuIcon-locationfill:before {
+  	font-weight: bold;
+  	color: #0081ff;
+  	font-size: 30px;
+}
+.cuIcon-moneybagfill:before {
+  	color:#fbbc02;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-recordfill:before {
+  	color:#aa5500;
+  	font-size: 30px;
+  	font-weight: bold;
+}
+.cuIcon-friendaddfill:before {
+  	color:#f57f77;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-shopfill:before {
+  	color:#955ff3;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-myfill:before {
+  	color:#7c7c7c;
+	font-size: 30px;
+	font-weight: bold;
+}
+.bg-color{
+  	  background:#fff;
+  	  padding: 20px 10px;
+}
+.nav-title{
+  	  font-weight:bold;
+}
+.popup_overlay {
+   
+  		position: fixed;
+  		top: 0%;
+  		left: 0%;
+  		width: 100%;
+  		height: 100%;
+  		background-color: black;
+  		z-index: 1001;
+  		-moz-opacity: 0.8;
+	opacity: 0.8;
+  		filter: alpha(opacity=88);
+}
+.popup_content {
+  		position: fixed;
+  		top: 50%;
+  		left: 58%;
+  		width: 230px;
+  		height: 180px;
+  		margin-left: -270rpx;
+  		margin-top: -270rpx;
+  		border: 10px solid white;
+  		background-color: white;
+  		z-index: 1002;
+  		overflow: auto;
+  		-webkit-border-radius: 20rpx;
+  		        border-radius: 20rpx;
+		text-align:center;
+		padding-top: 15px;
+}
+.popup_title {
+  		padding-top: 20rpx;
+  		width: 480rpx;
+  		text-align: center;
+  		font-size: 32rpx;
+}
+.popup_textarea_item {
+  		padding-top: 5rpx;
+  		height: 240rpx;
+  		width: 440rpx;
+  		background-color: #F1F1F1;
+  		margin-top: 30rpx;
+  		margin-left: 20rpx;
+}
+.popup_textarea {
+  		width: 410rpx;
+  		font-size: 26rpx;
+  		margin-left: 20rpx;
+}
+.popup_button {
+  		color: white;
+  		background-color: #4399FC;
+  		-webkit-border-radius: 20rpx;
+  		        border-radius: 20rpx;
+}
+
+
+button {
+	margin-top: 40rpx;
+}
+.header {
+}
+.header image {
+	width: -webkit-fill-available;
+	height: 160px;
+}
+.cuIcon-search:before {
+	font-weight: bold;
+	color: #1aad19;
+	font-size: 30px;
+}
+.cuIcon-locationfill:before {
+	font-weight: bold;
+	color: #0081ff;
+	font-size: 30px;
+}
+.cuIcon-moneybagfill:before {
+	color: #fbbc02;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-friendaddfill:before {
+	color: #f57f77;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-shopfill:before {
+	color: #955ff3;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-myfill:before {
+	color: #7c7c7c;
+	font-size: 30px;
+	font-weight: bold;
+}
+.bg-color {
+	background: #fff;
+	padding: 20px 10px;
+}
+.nav-title {
+	font-weight: bold;
+}
+.popup_overlay {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	filter: alpha(opacity=88);
+}
+.popup_content {
+	position: fixed;
+	top: 50%;
+	left: 58%;
+	width: 230px;
+	height: 180px;
+	margin-left: -270rpx;
+	margin-top: -270rpx;
+	border: 10px solid white;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	text-align: center;
+	padding-top: 15px;
+}
+.popup_title {
+	padding-top: 20rpx;
+	width: 480rpx;
+	text-align: center;
+	font-size: 32rpx;
+}
+.popup_textarea_item {
+	padding-top: 5rpx;
+	height: 240rpx;
+	width: 440rpx;
+	background-color: #f1f1f1;
+	margin-top: 30rpx;
+	margin-left: 20rpx;
+}
+.popup_textarea {
+	width: 410rpx;
+	font-size: 26rpx;
+	margin-left: 20rpx;
+}
+.popup_button {
+	color: white;
+	background-color: #4399fc;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+

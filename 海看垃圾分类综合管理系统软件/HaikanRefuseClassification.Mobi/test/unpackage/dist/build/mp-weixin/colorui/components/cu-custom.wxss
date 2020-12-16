@@ -1,0 +1,2 @@
+.cu-bar.fixed,
+	.nav.fixed{position:static!important;width:100%;top:0;z-index:1024;box-shadow:0 1rpx 6rpx rgba(0,0,0,.1)}.cu-list.grid>.cu-item{display:-webkit-box;display:-webkit-flex;display:flex;padding:20rpx 0 30rpx;-webkit-transition-duration:0s;transition-duration:0s;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column}

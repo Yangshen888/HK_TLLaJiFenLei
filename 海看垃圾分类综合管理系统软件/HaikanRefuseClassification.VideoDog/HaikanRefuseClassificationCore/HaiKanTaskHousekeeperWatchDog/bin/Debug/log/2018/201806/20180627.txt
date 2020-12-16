@@ -1,0 +1,10 @@
+[记录时间：2018-06-27 11:35:01,479 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-06-27 11:35:01,495 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2018-06-27 11:52:17,499 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-06-27 11:52:17,515 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2018-06-27 11:53:28,176 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-06-27 11:53:28,189 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2018-06-27 14:55:45,257 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-06-27 14:55:47,501 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2018-06-27 14:57:15,489 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2018-06-27 14:57:17,401 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 

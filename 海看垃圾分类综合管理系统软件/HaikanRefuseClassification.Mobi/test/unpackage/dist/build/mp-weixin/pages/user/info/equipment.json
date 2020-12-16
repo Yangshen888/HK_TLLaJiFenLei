@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "本机信息",
+  "usingComponents": {
+    "cmd-transition": "/components/cmd-transition/cmd-transition",
+    "cmd-page-body": "/components/cmd-page-body/cmd-page-body",
+    "cmd-cel-item": "/components/cmd-cell-item/cmd-cell-item",
+    "cmd-avatar": "/components/cmd-avatar/cmd-avatar"
+  }
+}

@@ -1,0 +1,271 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/home",
+			"style": {}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "导航页"
+			}
+		},
+		{
+			"path": "pages/home/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/home/person/person",
+			"style": {
+				"navigationBarTitleText": "个人"
+			}
+		},
+		{
+			"path": "pages/component/home",
+			"style": {}
+		},
+		{
+			"path": "colorui/components/cu-custom",
+			"style": {}
+		},
+		{
+			"path": "pages/component/password",
+			"style": {}
+		}
+
+		, {
+			"path": "pages/getscore/menu",
+			"style": {
+				"navigationBarTitleText": "赋分"
+			}
+		}, {
+			"path": "pages/volunteer/clockin",
+			"style": {
+				"navigationBarTitleText": "志愿者打卡"
+			}
+		}, {
+			"path": "pages/getscore/scoreRecord",
+			"style": {
+				"navigationBarTitleText": "赋分记录"
+			}
+		}
+
+		, {
+			"path": "pages/getscore/addscore",
+			"style": {
+				"navigationBarTitleText": "赋分"
+			}
+		}, {
+			"path": "pages/home/home/userhome",
+			"style": {
+				"navigationBarTitleText": "用户首页"
+			}
+		}, {
+			"path": "pages/home/home/shophome",
+			"style": {
+				"navigationBarTitleText": "商户"
+			}
+		}, {
+			"path": "pages/getscore/QRscanning",
+			"style": {
+				"navigationBarTitleText": "二维码识别"
+			}
+		}, {
+			"path": "pages/garbage/typelist",
+			"style": {
+				"navigationBarTitleText": "分类查询"
+			}
+		}, {
+			"path": "pages/business/list",
+			"style": {
+				"navigationBarTitleText": "商家信息"
+			}
+		}, {
+			"path": "pages/volunteer/volunteerPJ",
+			"style": {}
+		},
+		{
+			"path": "pages/person/responsecreate",
+			"style": {}
+		},
+		{
+			"path": "pages/person/helpcenter",
+			"style": {}
+		},
+		{
+			"path": "pages/person/responsedetail",
+			"style": {}
+		},
+		{
+			"path": "pages/person/responseedit",
+			"style": {}
+		},
+		{
+			"path": "pages/person/responselist",
+			"style": {}
+		}, {
+			"path": "pages/message/messageInfo",
+			"style": {}
+		}
+
+		, {
+			"path": "pages/garbage/querylist",
+			"style": {}
+		}, {
+			"path": "pages/business/addRecord",
+			"style": {}
+		},
+		{
+			"path": "pages/supervisorInspection/SupervisorInspection",
+			"style": {
+				"navigationBarTitleText": "督查员检查"
+			}
+		},
+		{
+			"path": "pages/supervisorInspection/scanQR",
+			"style": {
+				"navigationBarTitleText": "督查员扫码"
+			}
+		}
+	],
+	// 分包加载：此配置在微信小程序里为分包加载，在5+App里始终为整包
+	"subPackages": [
+		// 用户登录注册修改忘记密码页面
+		{
+			"root": "pages/user",
+			"pages": [
+				// 接root包路径
+
+
+				{
+					"path": "forgot/forgot",
+					"style": {
+						"navigationBarTitleText": "忘记密码"
+					}
+				},
+				{
+					"path": "info/info",
+					"style": {
+						"navigationBarTitleText": "信息设置"
+					}
+				},
+				{
+					"path": "clockin/list",
+					"style": {
+						"navigationBarTitleText": "打卡"
+					}
+				},
+				{
+					"path": "info/equipment",
+					"style": {
+						"navigationBarTitleText": "本机信息"
+					}
+				},
+				{
+					"path": "info/QRcode",
+					"style": {
+						"navigationBarTitleText": "我的二维码"
+					}
+				},
+				{
+					"path": "info/common",
+					"style": {
+						"navigationBarTitleText": "我的百姓码"
+					}
+				},
+				{
+					"path": "clockin/volunteer",
+					"style": {
+						"navigationBarTitleText": "志愿者打卡"
+					}
+				},
+
+				{
+					"path": "clockin/PMZZY",
+					"style": {
+						"navigationBarTitleText": "志愿者下午打卡"
+					}
+				},
+				{
+					"path": "info/code",
+					"style": {
+						"navigationBarTitleText": "市民卡"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/YongHu",
+			"pages": [
+				// 接root包路径
+				{
+					"path": "changehome",
+					"style": {}
+				}, {
+					"path": "jiatinma",
+					"style": {}
+				}, {
+					"path": "changeQR",
+					"style": {}
+				}, {
+					"path": "changeNumber",
+					"style": {}
+				}, {
+					"path": "addinfo",
+					"style": {}
+				}, {
+					"path": "around",
+					"style": {
+						"navigationBarTitleText": "附近垃圾箱"
+					}
+
+				},
+				{
+					"path": "ScoreSearch",
+					"style": {}
+				}, {
+					"path": "ZYZ",
+					"style": {}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+		"app-plus": {
+			"titleView": false
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

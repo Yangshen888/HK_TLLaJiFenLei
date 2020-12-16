@@ -1,0 +1,56 @@
+
+.container999 {
+	width: 100vw;
+	font-size: 28rpx;
+	overflow: hidden;
+	position: relative;
+	top: 50px;
+}
+.noticeTXT {
+	font-size: 10PX;
+	color: rgb(12, 242, 240);
+	text-align: center
+}
+.uni-input {
+	text-align: center;
+	width: 80vw;
+	margin: 0 auto;
+	margin-top: 10px;
+	
+	padding: 10px;
+	color: #333333;
+	font-size: 1rem;
+	background-color: #f6f6f6;
+}
+.info-swtich {
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 150rpx;
+	background-color: #dedcdc;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	position: absolute;
+	bottom: 60rpx;
+	left: 300rpx;
+}
+.ljfltxt {
+	text-align: center;
+	font-size: 1rem;
+}
+.info-button-view {
+	padding-top: 35vh;
+	margin: 0 auto;
+}
+.btn-pz {}
+

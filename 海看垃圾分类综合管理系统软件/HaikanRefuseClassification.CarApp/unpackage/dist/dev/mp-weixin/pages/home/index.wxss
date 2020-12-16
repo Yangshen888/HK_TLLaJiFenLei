@@ -1,0 +1,120 @@
+
+button {
+    margin-top: 40rpx;
+}
+.header {
+}
+.header image {
+  	width: -webkit-fill-available;
+  	height: 160px;
+}
+.bg-color{
+	  background:#fff;
+	  padding: 20px 10px;
+}
+.nav-title{
+	  font-weight:bold;
+}
+
+
+.person-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 150px;
+  padding-left: 20px;
+  background: -webkit-linear-gradient(left, #365fff, #36bbff);
+  background: linear-gradient(to right, #365fff, #36bbff);
+}
+.person-head-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+  margin-left: 10px;
+}
+.person-head-nickname {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.person-head-username {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+.person-list {
+  line-height: 0;
+}
+.btn-logout {
+  margin-top: 100rpx;
+  width: 80%;
+  border-radius: 50rpx;
+  font-size: 16px;
+  color: #fff;
+  background: -webkit-linear-gradient(left, #365fff, #36bbff);
+  background: linear-gradient(to right, #365fff, #36bbff);
+}
+.btn-logout-hover {
+  background: -webkit-linear-gradient(left, #365fdd, #36bbfa);
+  background: linear-gradient(to right, #365fdd, #36bbfa);
+}
+
+
+button {
+    margin-top: 40rpx;
+}
+.header {
+}
+.header image {
+  	width: -webkit-fill-available;
+  	height: 160px;
+}
+.cuIcon-search:before {
+  	font-weight: bold;
+  	color: #1AAD19;
+  	font-size: 30px;
+}
+.cuIcon-locationfill:before {
+  	font-weight: bold;
+  	color: #0081ff;
+  	font-size: 30px;
+}
+.cuIcon-moneybagfill:before {
+  	color:#fbbc02;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-friendaddfill:before {
+  	color:#f57f77;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-shopfill:before {
+  	color:#955ff3;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-myfill:before {
+  	color:#7c7c7c;
+	font-size: 30px;
+	font-weight: bold;
+}
+  
+

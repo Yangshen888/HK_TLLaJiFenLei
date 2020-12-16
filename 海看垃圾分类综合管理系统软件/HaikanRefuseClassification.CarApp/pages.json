@@ -1,0 +1,173 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {"navigationBarTitleText": "登录"}
+		// },
+		// {
+		// 	"path": "pages/login/forget",
+		// 	"style": {"navigationBarTitleText": "忘记密码"}
+		// },
+		// {
+		// 	"path": "pages/login/reg",
+		// 	"style": {"navigationBarTitleText": "注册"}
+		// },
+		{
+		  "path": "pages/home/index",
+		  "style": {"navigationBarTitleText": "导航页"}
+		}, 
+		{
+			"path": "pages/home/home/home",
+			"style": {"navigationBarTitleText": "首页"}
+		},
+		{
+			"path": "pages/home/person/person",
+			"style": {"navigationBarTitleText": "个人"}
+		},
+		{
+			"path": "pages/component/home",
+			"style": {
+			}
+		},
+		{
+			"path": "colorui/components/cu-custom",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/component/password",
+			"style": {
+			}
+		}
+        
+        ,{
+            "path" : "pages/getscore/menu",
+            "style": {"navigationBarTitleText": "赋分"}
+        }
+        ,{
+            "path" : "pages/volunteer/clockin",
+            "style": {"navigationBarTitleText": "志愿者打卡"}
+        }
+        ,{
+            "path" : "pages/getscore/scoreRecord",
+            "style": {"navigationBarTitleText": "赋分记录"}
+        }
+        
+        ,{
+            "path" : "pages/getscore/addscore",
+            "style": {"navigationBarTitleText": "赋分"}
+        }
+        ,{
+            "path" : "pages/home/home/userhome",
+            "style": {"navigationBarTitleText": "用户首页"}
+        }
+        
+        ,{
+            "path" : "pages/getscore/QRscanning",
+            "style": {"navigationBarTitleText": "二维码识别"}
+        }
+        ,{
+            "path" : "pages/YongHu/around",
+            "style": {"navigationBarTitleText": "附近垃圾箱"}
+			
+        }
+        ,{
+            "path" : "pages/garbage/typelist",
+            "style": {"navigationBarTitleText": "分类查询"}
+        }
+        ,{
+            "path" : "pages/business/list",
+            "style": {"navigationBarTitleText": "商家信息"}
+        }
+        ,{
+            "path" : "pages/map/liveMap/liveMap",
+            "style" : {"navigationBarTitleText": "实时地图"}
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" : {"navigationBarTitleText": "问题反馈"}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {"navigationBarTitleText": "称重记录"}
+        }
+        ,{
+            "path" : "pages/record/record",
+            "style" : {"navigationBarTitleText": "收运记录"}
+        }
+        ,{
+            "path" : "pages/system/info/info",
+            "style" : {}
+        }
+    ],
+	// 分包加载：此配置在微信小程序里为分包加载，在5+App里始终为整包
+	"subPackages": [
+	  // 用户登录注册修改忘记密码页面
+	  {
+	    "root": "pages/user",
+	    "pages": [
+	      // 接root包路径
+	      {
+	        "path": "login/login",
+	        "style": {
+	          "navigationBarTitleText": "用户登录"
+	        }
+	      },
+	      {
+	        "path": "register/register",
+	        "style": {
+	          "navigationBarTitleText": "用户注册"
+	        }
+	      },
+	      {
+	        "path": "modify/modify",
+	        "style": {
+	          "navigationBarTitleText": "密码修改"
+	        }
+	      },
+	      {
+	        "path": "forgot/forgot",
+	        "style": {
+	          "navigationBarTitleText": "忘记密码"
+	        }
+	      },
+	      {
+	        "path": "info/info",
+	        "style": {
+	          "navigationBarTitleText": "信息设置"
+	        }
+	      },
+		  {
+		      "path" : "clockin/list",
+		      "style": {"navigationBarTitleText": "打卡"}
+		  },
+		  {
+		      "path" : "clockin/index",
+		      "style": {"navigationBarTitleText": "打卡"}
+		  }
+		  ,{
+		      "path" : "info/equipment",
+		      "style": {"navigationBarTitleText": "本机信息"}
+		  },
+		  {
+		      "path" : "info/QRcode",
+		      "style": {"navigationBarTitleText": "我的二维码"}
+		  },
+		  {
+		      "path" : "clockin/volunteer",
+		      "style": {"navigationBarTitleText": "志愿者打卡"}
+		  }
+	    ]
+	  }
+	],
+	"globalStyle": {
+	        "navigationBarTextStyle": "black",
+	        "navigationBarTitleText": "uni-app",
+	        "navigationBarBackgroundColor": "#F8F8F8",
+	        "backgroundColor": "#F8F8F8",
+	        "navigationStyle":"custom",
+	        "app-plus": {
+	            "titleView": false
+	        }
+	    }
+}

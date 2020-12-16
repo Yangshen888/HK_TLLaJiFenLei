@@ -1,0 +1,20 @@
+
+.nav-li{
+	width:100%;
+}
+.bg-color{
+	  background:#fff;
+	  padding: 20px 10px;
+}
+.nav-title{
+  	  font-weight:bold;
+}
+.cuIcon-scan:before {
+  	content: "\E689";
+	color:#007AFF;
+}
+.cuIcon-edit:before {
+  	content: "\E649";
+	color:#f37b1d;
+}
+

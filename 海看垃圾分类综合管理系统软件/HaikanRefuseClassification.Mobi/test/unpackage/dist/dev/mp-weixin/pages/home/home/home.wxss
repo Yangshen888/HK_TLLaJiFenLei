@@ -1,0 +1,21 @@
+
+button {
+    margin-top: 40rpx;
+}
+.header {
+}
+.header image {
+  	width: -webkit-fill-available;
+  	height: 160px;
+}
+.bg-color{
+	  background:#fff;
+	  padding: 20px 10px;
+}
+.nav-title{
+	  font-weight:bold;
+}
+.cuIcon-emoji:before {
+	color:#7b07ab;
+}
+

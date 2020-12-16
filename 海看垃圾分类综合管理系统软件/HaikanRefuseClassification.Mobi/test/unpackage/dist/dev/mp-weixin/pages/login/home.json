@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "qr": "/components/tki-qrcode/tki-qrcode",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}

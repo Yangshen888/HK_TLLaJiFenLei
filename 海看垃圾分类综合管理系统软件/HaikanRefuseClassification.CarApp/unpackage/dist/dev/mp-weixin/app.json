@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/login/forget",
+    "pages/login/reg",
+    "pages/home/index",
+    "pages/home/home/home",
+    "pages/home/person/person",
+    "pages/component/home",
+    "colorui/components/cu-custom",
+    "pages/component/password",
+    "pages/getscore/menu",
+    "pages/volunteer/clockin",
+    "pages/getscore/scoreRecord",
+    "pages/getscore/addscore",
+    "pages/home/home/userhome",
+    "pages/getscore/QRscanning",
+    "pages/YongHu/around",
+    "pages/garbage/typelist",
+    "pages/business/list"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/user",
+      "pages": [
+        "login/login",
+        "register/register",
+        "modify/modify",
+        "forgot/forgot",
+        "info/info",
+        "clockin/list",
+        "clockin/index",
+        "info/equipment",
+        "info/QRcode",
+        "clockin/volunteer"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "basics": "/pages/home/home/home",
+    "mycomponent": "/pages/component/home",
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap24.json"
+}

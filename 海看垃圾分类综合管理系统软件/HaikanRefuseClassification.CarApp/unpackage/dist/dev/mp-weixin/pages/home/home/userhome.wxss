@@ -1,0 +1,42 @@
+
+button {
+    margin-top: 40rpx;
+}
+.header {
+}
+.header image {
+  	width: -webkit-fill-available;
+  	height: 160px;
+}
+.cuIcon-search:before {
+  	font-weight: bold;
+  	color: #1AAD19;
+  	font-size: 30px;
+}
+.cuIcon-locationfill:before {
+  	font-weight: bold;
+  	color: #0081ff;
+  	font-size: 30px;
+}
+.cuIcon-moneybagfill:before {
+  	color:#fbbc02;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-friendaddfill:before {
+  	color:#f57f77;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-shopfill:before {
+  	color:#955ff3;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cuIcon-myfill:before {
+  	color:#7c7c7c;
+	font-size: 30px;
+	font-weight: bold;
+}
+  
+

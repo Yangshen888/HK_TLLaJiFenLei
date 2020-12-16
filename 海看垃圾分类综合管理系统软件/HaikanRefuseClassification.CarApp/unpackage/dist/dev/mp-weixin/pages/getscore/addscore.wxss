@@ -1,0 +1,29 @@
+
+.hezi{
+	background-color: #fff;
+	margin: 20px 20px 0 20px;
+	border-radius:5px ;
+}
+.hang{
+	line-height: 45px;
+	border-top: 1px solid #ccc ;
+	overflow: hidden;
+	margin: 0 15px;
+}
+.hang:nth-child(1){
+	line-height: 45px;
+	border-top: 0 ;
+}
+.zuo{
+	float: left;
+	font-weight: bold;
+}
+.you{
+	float: right;
+	color: #999;
+	font-weight: bold;
+}
+.cu-form-group{
+	border-radius: 5px;
+}
+

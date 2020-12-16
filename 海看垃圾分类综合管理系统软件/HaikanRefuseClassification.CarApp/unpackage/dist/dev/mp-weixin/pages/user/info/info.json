@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "信息设置",
+  "usingComponents": {
+    "cmd-transition": "/components/cmd-transition/cmd-transition",
+    "cmd-cel-item": "/components/cmd-cell-item/cmd-cell-item",
+    "cmd-avatar": "/components/cmd-avatar/cmd-avatar"
+  }
+}

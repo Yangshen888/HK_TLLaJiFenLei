@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "t-table": "/components/t-table/t-table"
+  }
+}

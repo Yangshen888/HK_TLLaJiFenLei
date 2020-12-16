@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "督查员检查",
+  "usingComponents": {
+    "easy-upload": "/components/easy-upload/easy-upload"
+  }
+}

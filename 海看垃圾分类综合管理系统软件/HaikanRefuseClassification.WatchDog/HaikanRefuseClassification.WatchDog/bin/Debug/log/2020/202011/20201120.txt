@@ -1,0 +1,48 @@
+[记录时间：2020-11-20 09:35:04,433 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2020-11-20 09:35:04,443 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2020-11-20 09:35:09,472 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:35:09,473 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:35:09:472 
+[记录时间：2020-11-20 09:35:44,704 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2020-11-20 09:35:44,714 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2020-11-20 09:35:49,726 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:35:49,727 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:35:49:726 
+[记录时间：2020-11-20 09:38:51,542 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2020-11-20 09:38:51,550 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2020-11-20 09:38:56,564 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:38:56,565 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:38:56:564 
+[记录时间：2020-11-20 09:39:07,482 ]线程ID:[6] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:39:07,482 ]线程ID:[6] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:39:07:482 
+[记录时间：2020-11-20 09:39:17,184 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:39:17,184 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:39:17:184 
+[记录时间：2020-11-20 09:39:25,371 ]线程ID:[6] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:39:25,371 ]线程ID:[6] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:39:25:371 
+[记录时间：2020-11-20 09:39:34,007 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:39:34,007 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:39:34:007 
+[记录时间：2020-11-20 09:39:41,876 ]线程ID:[6] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:39:41,876 ]线程ID:[6] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:39:41:876 
+[记录时间：2020-11-20 09:39:45,126 ]线程ID:[9] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:39:45,126 ]线程ID:[9] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:39:45:126 
+[记录时间：2020-11-20 09:40:29,048 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动！ 
+[记录时间：2020-11-20 09:40:29,058 ]线程ID:[1] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：看门狗程序启动完毕！ 
+[记录时间：2020-11-20 09:40:34,073 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:40:34,073 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:40:34:073 
+[记录时间：2020-11-20 09:40:39,066 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:40:39,066 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:40:39:066 
+[记录时间：2020-11-20 09:40:44,066 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:40:44,066 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:40:44:066 
+[记录时间：2020-11-20 09:40:49,067 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:40:49,067 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:40:49:067 
+[记录时间：2020-11-20 09:40:54,068 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:40:54,068 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:40:54:068 
+[记录时间：2020-11-20 09:40:59,069 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:40:59,069 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:40:59:069 
+[记录时间：2020-11-20 09:41:04,069 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:41:04,069 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:41:04:069 
+[记录时间：2020-11-20 09:41:09,071 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:41:09,071 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:41:09:071 
+[记录时间：2020-11-20 09:41:14,071 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:41:14,071 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:41:14:071 
+[记录时间：2020-11-20 09:41:19,072 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:41:19,072 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:41:19:072 
+[记录时间：2020-11-20 09:41:24,073 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：计时器事件触发4 
+[记录时间：2020-11-20 09:41:24,073 ]线程ID:[4] 日志级别：INFO  类：HaiKanTaskHousekeeperWatchDog.FrmMain - 描述：02020-11-20 09:41:24:073 

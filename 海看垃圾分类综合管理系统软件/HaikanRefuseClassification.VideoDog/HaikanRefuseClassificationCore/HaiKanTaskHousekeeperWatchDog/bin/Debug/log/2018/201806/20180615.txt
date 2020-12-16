@@ -1,0 +1,8 @@
+[记录时间：2018-06-15 14:07:45,408 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入管理员姓名：海看门禁调试工具插入卡号11229731成功！ 
+[记录时间：2018-06-15 14:07:45,409 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入门禁里的开始时间为20170101,结束时间为20991231 
+[记录时间：2018-06-15 14:09:44,460 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入管理员姓名：海看门禁调试工具插入卡号11229731成功！ 
+[记录时间：2018-06-15 14:09:44,460 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入门禁里的开始时间为20170101,结束时间为20991231 
+[记录时间：2018-06-15 14:09:49,909 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入管理员姓名：海看门禁调试工具插入卡号11229731成功！ 
+[记录时间：2018-06-15 14:09:49,909 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入门禁里的开始时间为20170101,结束时间为20991231 
+[记录时间：2018-06-15 14:09:55,402 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入管理员姓名：海看门禁调试工具插入卡号11229731成功！ 
+[记录时间：2018-06-15 14:09:55,402 ]线程ID:[1] 日志级别：INFO  出错类：HaikanEntranceGuardWatchDog.FrmMain - 描述：插入门禁里的开始时间为20170101,结束时间为20991231 

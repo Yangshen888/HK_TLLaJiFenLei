@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分类查询",
+  "usingComponents": {
+    "refresh": "/components/nav-tab/refresh",
+    "nav-tab": "/components/nav-tab/navTab"
+  }
+}
